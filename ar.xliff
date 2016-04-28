@@ -1,31 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="shoutit-iphone/Application/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Application/Info.plist" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>شاوت ات</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>2.0.1</source>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Application/Localizable.strings" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Application/Localizable.strings" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id=" Details">
-        <source> Details</source>
-        <target>التفاصيل</target>
+        <source>Details</source>
+        <target>المواصفات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id=" Location">
-        <source> Location</source>
+        <source>Location</source>
         <target>الموقع</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
@@ -34,52 +31,70 @@
         <target>%%x يستمع اليك</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="%%x: %%mm">
-        <source>%%x: %%mm</source>
+      <trans-unit id="(NumberFormatters.sharedInstance.numberToShortString(profile.listenersCount)) Listeners">
+        <source>(NumberFormatters.sharedInstance.numberToShortString(profile.listenersCount)) Listeners</source>
+        <target>(NumberFormatters.sharedInstance.numberToShortString(profile.listenersCount)) مستمعين</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="%@ Admins">
-        <source>%@ Admins</source>
-        <target>مدراء %@</target>
+      <trans-unit id="(name) Shouts">
+        <source>(name) Shouts</source>
+        <target>إعلانات (name)</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="%@ Listeners">
-        <source>%@ Listeners</source>
-        <target>%@ مستمعين</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="%@ Pages">
-        <source>%@ Pages</source>
-        <target>صفحات %@</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="%@ Shouts">
-        <source>%@ Shouts</source>
-        <target>إعلانات %@</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="%d Shouts">
-        <source>%d Shouts</source>
+      <trans-unit id="(numberOfResults) Shouts">
+        <source>(numberOfResults) Shouts</source>
+        <target>(numberOfResults) إعلان</target>
         <note>Search results count string</note>
       </trans-unit>
-      <trans-unit id="(location.city), (location.country)">
-        <source>(location.city), (location.country)</source>
-        <note>Shout detail location string</note>
+      <trans-unit id="(profile.firstName ?? profile.name) Pages">
+        <source>(profile.firstName ?? profile.name) Pages</source>
+        <target>صفحات (profile.firstName ?? profile.name)</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="+99">
-        <source>+99</source>
-        <note>More than 99 Notifications</note>
+      <trans-unit id="(profile.firstName ?? profile.name) Shouts">
+        <source>(profile.firstName ?? profile.name) Shouts</source>
+        <target>إعلانات (profile.firstName ?? profile.name)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(profile.name) Admins">
+        <source>(profile.name) Admins</source>
+        <target>مدراء (profile.name)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(profile.name) Shouts">
+        <source>(profile.name) Shouts</source>
+        <target>إعلانات (profile.name)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(s) Listeners">
+        <source>(s) Listeners</source>
+        <target>(s) مستمعين</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(tag.name) Shouts">
+        <source>(tag.name) Shouts</source>
+        <target>إعلانات (tag.name)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(user.firstName ?? user.name) Shouts">
+        <source>(user.firstName ?? user.name) Shouts</source>
+        <target>إعلانات (user.firstName ?? user.name)</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
         <target>حول</target>
-        <note>About screen title
-   Settings cell title</note>
+        <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Account">
         <source>Account</source>
         <target>الحساب</target>
         <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="All">
+        <source>All</source>
+        <target>الكل</target>
+        <note>All shout types - filter button title</note>
       </trans-unit>
       <trans-unit id="All Categories">
         <source>All Categories</source>
@@ -94,14 +109,6 @@
       <trans-unit id="Attachment">
         <source>Attachment</source>
         <target>المرفقات</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Auto">
-        <source>Auto</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Automatically Location Updates">
-        <source>Automatically Location Updates</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Bio">
@@ -182,7 +189,7 @@
       <trans-unit id="Chats">
         <source>Chats</source>
         <target>المحادثات</target>
-        <note>Shout detail tab bar item</note>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Choose location">
         <source>Choose location</source>
@@ -244,16 +251,6 @@
         <target>إنشاء طلب</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Create another Offer">
-        <source>Create another Offer</source>
-        <target>إنشاء عرض آخر</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Create another Request">
-        <source>Create another Request</source>
-        <target>إنشاء طلب آخر</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Currency">
         <source>Currency</source>
         <target>العملة</target>
@@ -262,10 +259,6 @@
       <trans-unit id="Current Password">
         <source>Current Password</source>
         <target>كلمة المرور الحالية</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Current location:">
-        <source>Current location:</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Date">
@@ -291,8 +284,7 @@
       <trans-unit id="Description">
         <source>Description</source>
         <target>التفاصيل</target>
-        <note>Description cell placeholder text
-   Shout details</note>
+        <note>Description cell placeholder text Shout details</note>
       </trans-unit>
       <trans-unit id="Details">
         <source>Details</source>
@@ -302,11 +294,6 @@
       <trans-unit id="Discover">
         <source>Discover</source>
         <target>إكتشف</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Discover Shouts">
-        <source>Discover Shouts</source>
-        <target>إكتشف الإعلانات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to delete this conversation">
@@ -399,6 +386,11 @@
         <target>لايمكن ترك الحقول فارغة</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Filter unavailable">
+        <source>Filter unavailable</source>
+        <target>الفرز غير متاح</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="First name">
         <source>First name</source>
         <target>الإسم الأول</target>
@@ -440,8 +432,8 @@
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Incoming Call from ">
-        <source>Incoming Call from </source>
-        <target>مكالمة واردة من </target>
+        <source>Incoming Call from</source>
+        <target>مكالمة واردة من</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Interests">
@@ -457,8 +449,7 @@
       <trans-unit id="Joined">
         <source>Joined</source>
         <target>مسجل من</target>
-        <note>User profile date foined cell
-   User profile date joined cell</note>
+        <note>User profile date foined cell User profile date joined cell</note>
       </trans-unit>
       <trans-unit id="Last name">
         <source>Last name</source>
@@ -498,8 +489,7 @@
       <trans-unit id="Location">
         <source>Location</source>
         <target>الموقع</target>
-        <note>Edit profile placeholder text
-   Shout detail</note>
+        <note>Edit profile placeholder text Shout detail</note>
       </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
@@ -516,20 +506,15 @@
         <target>تحديد الكل كمقروء</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Mobile">
-        <source>Mobile</source>
-        <target>رقم الموبايل</target>
-        <note>Edit profile placeholder text</note>
-      </trans-unit>
       <trans-unit id="More">
         <source>More</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
-      <trans-unit id="More shouts from %@">
-        <source>More shouts from %@</source>
-        <target>إعلانات أكثر من %@</target>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="More shouts from (firstname)">
+        <source>More shouts from (firstname)</source>
+        <target>إعلانات بواسطة (firstname)</target>
+        <note>Shout detail</note>
       </trans-unit>
       <trans-unit id="My Pages">
         <source>My Pages</source>
@@ -593,7 +578,7 @@
       </trans-unit>
       <trans-unit id="No more messages to show">
         <source>No more messages to show</source>
-        <target>لا يوجد رسائل اكثر للعرض</target>
+        <target>لا يوجد رسائل أخرى للعرض</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No notifications to show">
@@ -628,7 +613,7 @@
       </trans-unit>
       <trans-unit id="Notification">
         <source>Notification</source>
-        <target>الإشعارات</target>
+        <target>إشعار</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Notification Settings">
@@ -645,21 +630,6 @@
         <source>Offer</source>
         <target>عرض</target>
         <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Offers and Requests">
-        <source>Offers and Requests</source>
-        <target>عروض و طلبات</target>
-        <note>Filter shout type</note>
-      </trans-unit>
-      <trans-unit id="Only Offers">
-        <source>Only Offers</source>
-        <target>عروض فقط</target>
-        <note>Filter shout type</note>
-      </trans-unit>
-      <trans-unit id="Only Requests">
-        <source>Only Requests</source>
-        <target>طلبات فقط</target>
-        <note>Filter shout type</note>
       </trans-unit>
       <trans-unit id="Orders">
         <source>Orders</source>
@@ -739,8 +709,7 @@
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
         <target>سياسة الخصوصية</target>
-        <note>Settings cell title
-   Signup screen part of terms and condition message. Must match that in whole text</note>
+        <note>Settings cell title Signup screen part of terms and condition message. Must match that in whole text</note>
       </trans-unit>
       <trans-unit id="Profile Reported Successfully">
         <source>Profile Reported Successfully</source>
@@ -754,17 +723,17 @@
       </trans-unit>
       <trans-unit id="Related Interests">
         <source>Related Interests</source>
-        <target>إهتمامات متعلقة</target>
+        <target>إهتمامات مشابهة</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Related Shouts">
         <source>Related Shouts</source>
-        <target>إعلانات متعلقة</target>
+        <target>إعلانات مشابهة</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Related shouts">
         <source>Related shouts</source>
-        <target>إعلانات متعلقة</target>
+        <target>إعلانات مشابهة</target>
         <note>Shout detail</note>
       </trans-unit>
       <trans-unit id="Remove">
@@ -797,10 +766,15 @@
         <target>النتائج</target>
         <note>Search results section header</note>
       </trans-unit>
-      <trans-unit id="Results for '%@'">
-        <source>Results for '%@'</source>
-        <target>نتائج '%@'</target>
+      <trans-unit id="Results for '(searchPhrase)'">
+        <source>Results for '(searchPhrase)'</source>
+        <target>نتائج '(searchPhrase)'</target>
         <note>Search results for search phrase section header</note>
+      </trans-unit>
+      <trans-unit id="Results for (category.name)">
+        <source>Results for (category.name)</source>
+        <target>نتائج (category.name)</target>
+        <note>Search results for category section header</note>
       </trans-unit>
       <trans-unit id="Search Shoutit">
         <source>Search Shoutit</source>
@@ -812,9 +786,24 @@
         <target>البحث عن مستخدمين</target>
         <note>Search users placeholder</note>
       </trans-unit>
-      <trans-unit id="Search in %@ shouts">
-        <source>Search in %@ shouts</source>
-        <target>بحث في %@</target>
+      <trans-unit id="Search in (category.name) shouts">
+        <source>Search in (category.name) shouts</source>
+        <target>ابحث في (category.name)</target>
+        <note>Search text field placeholder</note>
+      </trans-unit>
+      <trans-unit id="Search in (item.title) shouts">
+        <source>Search in (item.title) shouts</source>
+        <target>بحث في إعلانات (item.title)</target>
+        <note>Search text field placeholder</note>
+      </trans-unit>
+      <trans-unit id="Search in (profile.name) shouts">
+        <source>Search in (profile.name) shouts</source>
+        <target>بحث في إعلانات (profile.name)</target>
+        <note>Search text field placeholder</note>
+      </trans-unit>
+      <trans-unit id="Search in (tag.name) shouts">
+        <source>Search in (tag.name) shouts</source>
+        <target>بحث في (tag.name)</target>
         <note>Search text field placeholder</note>
       </trans-unit>
       <trans-unit id="See All Shouts">
@@ -834,7 +823,7 @@
       </trans-unit>
       <trans-unit id="Send Attachment">
         <source>Send Attachment</source>
-        <target>إرسال مرفقات</target>
+        <target>إرسال</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sending message">
@@ -877,10 +866,10 @@
         <target>الإعلانات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Shouts in %@">
-        <source>Shouts in %@</source>
-        <target>الإعلانات في %@</target>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="Shouts in (location.city)">
+        <source>Shouts in (location.city)</source>
+        <target>الإعلانات في (location.city)</target>
+        <note>Browse section header</note>
       </trans-unit>
       <trans-unit id="Sign up">
         <source>Sign up</source>
@@ -920,20 +909,11 @@
       <trans-unit id="Terms of Service">
         <source>Terms of Service</source>
         <target>شروط الخدمة</target>
-        <note>Settings cell title
-   Signup screen part of terms and condition message. Must match that in whole text</note>
+        <note>Settings cell title Signup screen part of terms and condition message. Must match that in whole text</note>
       </trans-unit>
       <trans-unit id="The maximum length of the video is 60 seconds. Choose a shorter movie.">
         <source>The maximum length of the video is 60 seconds. Choose a shorter movie.</source>
         <target>الحد الأعلى للفيديو 60 ثانية, إختر فيديو اقصر</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Turn Off">
-        <source>Turn Off</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Turn On">
-        <source>Turn On</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Type">
@@ -983,13 +963,13 @@
       </trans-unit>
       <trans-unit id="View Profile">
         <source>View Profile</source>
-        <target>رؤية الصفحة الشخصية</target>
+        <target>عرض الصفحة الشخصية</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Visit %@'s profile">
-        <source>Visit %@'s profile</source>
-        <target>زيارة صفحة %@</target>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="Visit (firstname)'s profile">
+        <source>Visit (firstname)'s profile</source>
+        <target>زيارة صفحة (firstname)</target>
+        <note>Shout Detail</note>
       </trans-unit>
       <trans-unit id="Website">
         <source>Website</source>
@@ -1018,22 +998,12 @@
       </trans-unit>
       <trans-unit id="You can start new conversation in shout details or user profile.">
         <source>You can start new conversation in shout details or user profile.</source>
-        <target>يمكنك بدء محادثة في تفاصيل الإعلان او صفحة المستخدم</target>
+        <target>يمكنك بدء محادثة في صفحة الإعلان او صفحة المستخدم</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You can't chat with yourself">
         <source>You can't chat with yourself</source>
         <target>لايمكن اجراء محادثة مع نفسك</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="You have successfully started listening to %@">
-        <source>You have successfully started listening to %@</source>
-        <target>لقد بدأت بالإستماع إلى إعلانات %@</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="You have successfully stopped listening to %@">
-        <source>You have successfully stopped listening to %@</source>
-        <target>لقد توقفت عن الإستماع إلى إعلانات %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You must be logged in to perform this action">
@@ -1051,23 +1021,14 @@
         <target>حسابك غير مفعل حتى الآن</target>
         <note>Verify email failed user message</note>
       </trans-unit>
-      <trans-unit id="Your location will be updated automatically">
-        <source>Your location will be updated automatically</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Your offer &quot;%@&quot; will appear on Shoutit soon.">
-        <source>Your offer "%@" will appear on Shoutit soon.</source>
-        <target>سيظهر إعلانك "@%" على شاوت ات بعد قليل.</target>
+      <trans-unit id="Your current location:">
+        <source>Your current location:</source>
+        <target>موقعك الحالي:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your offer will appear on Shoutit soon.">
         <source>Your offer will appear on Shoutit soon.</source>
         <target>سيظهر إعلانك على شاوت ات بعد قليل</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Your request &quot;%@&quot; will appear on Shoutit soon.">
-        <source>Your request "%@" will appear on Shoutit soon.</source>
-        <target>سيظهر إعلانك "@%" على شاوت ات بعد قليل.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your request will appear on Shoutit soon.">
@@ -1080,11 +1041,76 @@
         <target>معلن</target>
         <note>Displayed on shout detail screen if user's firstname would be null</note>
       </trans-unit>
+      <trans-unit id="(discoverItem) Shouts">
+        <source>(discoverItem) Shouts</source>
+        <target>إعلانات (discoverItem)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Create another Offer">
+        <source>Create another Offer</source>
+        <target>إنشاء عرض آخر</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Create another Request">
+        <source>Create another Request</source>
+        <target>إنشاء طلب آخر</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Discover Shouts">
+        <source>Discover Shouts</source>
+        <target>إكتشف الإعلانات</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Mobile">
+        <source>Mobile</source>
+        <target>رقم الموبايل</target>
+        <note>Edit profile placeholder text</note>
+      </trans-unit>
+      <trans-unit id="Offers and Requests">
+        <source>Offers and Requests</source>
+        <target>عروض و طلبات</target>
+        <note>Filter shout type</note>
+      </trans-unit>
+      <trans-unit id="Only Offers">
+        <source>Only Offers</source>
+        <target>عروض فقط</target>
+        <note>Filter shout type</note>
+      </trans-unit>
+      <trans-unit id="Only Requests">
+        <source>Only Requests</source>
+        <target>طلبات فقط</target>
+        <note>Filter shout type</note>
+      </trans-unit>
+      <trans-unit id="You have successully started listening to (name)">
+        <source>You have successully started listening to (name)</source>
+        <target>لقد بدأت بالإستماع إلى إعلانات (name)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You have successully stopped listening to (name)">
+        <source>You have successully stopped listening to (name)</source>
+        <target>لقد توقفت عن الإستماع إلى إعلانات (name)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your offer &quot;(title)&quot; will appear on Shoutit soon.">
+        <source>Your offer "(title)" will appear on Shoutit soon.</source>
+        <target>سيظهر إعلانك "(title)" على شاوت ات بعد قليل.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your request &quot;(title)&quot; will appear on Shoutit soon.">
+        <source>Your request "(title)" will appear on Shoutit soon.</source>
+        <target>سيظهر إعلانك "(title)" على شاوت ات بعد قليل.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="More shouts from %@">
+        <source></source>
+        <target>إعلانات بواسطة %@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/CameraStoryboard.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Localization/Base.lproj/CameraStoryboard.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="5kN-QW-7VN.normalTitle">
@@ -1101,10 +1127,6 @@
         <source>Record</source>
         <target>إنشاء حساب</target>
         <note>Class = "UIButton"; normalTitle = "Record"; ObjectID = "HXZ-4s-AyI";</note>
-      </trans-unit>
-      <trans-unit id="SN9-Be-ehn.text">
-        <source>00:05</source>
-        <note>Class = "UILabel"; text = "00:05"; ObjectID = "SN9-Be-ehn";</note>
       </trans-unit>
       <trans-unit id="T1H-Pn-i9k.normalTitle">
         <source>Back</source>
@@ -1138,9 +1160,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Chats.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Localization/Base.lproj/Chats.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="1Cm-xk-7AD.title">
@@ -1167,14 +1189,6 @@
         <source>Title</source>
         <target>العنوان</target>
         <note>Class = "UINavigationItem"; title = "Title"; ObjectID = "OoV-dq-QkE";</note>
-      </trans-unit>
-      <trans-unit id="QDG-Al-JRl.text">
-        <source>John Smith</source>
-        <note>Class = "UILabel"; text = "John Smith"; ObjectID = "QDG-Al-JRl";</note>
-      </trans-unit>
-      <trans-unit id="Uyo-AD-bj5.text">
-        <source>$44 USD</source>
-        <note>Class = "UILabel"; text = "$44 USD"; ObjectID = "Uyo-AD-bj5";</note>
       </trans-unit>
       <trans-unit id="VO8-bv-QaH.text">
         <source>Message Preview</source>
@@ -1216,10 +1230,6 @@
         <target>التاريخ</target>
         <note>Class = "UILabel"; text = "Date"; ObjectID = "oR2-Wf-ZJO";</note>
       </trans-unit>
-      <trans-unit id="pcT-Tt-k2b.text">
-        <source>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "pcT-Tt-k2b";</note>
-      </trans-unit>
       <trans-unit id="rdm-hj-mhG.title">
         <source>Conversations</source>
         <target>المحادثات</target>
@@ -1227,25 +1237,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Discover.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Localization/Base.lproj/Discover.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
-      <trans-unit id="1zO-PU-axo.text">
-        <source>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "1zO-PU-axo";</note>
-      </trans-unit>
-      <trans-unit id="C39-Cu-yZU.text">
-        <source>John Smith</source>
-        <note>Class = "UILabel"; text = "John Smith"; ObjectID = "C39-Cu-yZU";</note>
-      </trans-unit>
-      <trans-unit id="DFH-Ro-KZo.text">
-        <source>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "DFH-Ro-KZo";</note>
-      </trans-unit>
       <trans-unit id="HG0-FE-ywc.text">
         <source>Offer</source>
         <target>عرض</target>
@@ -1261,35 +1257,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>الرئيسية</target>
         <note>Class = "UINavigationItem"; title = "Home"; ObjectID = "UhY-5k-cKs";</note>
       </trans-unit>
-      <trans-unit id="XR2-l8-Hdh.text">
-        <source>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "XR2-l8-Hdh";</note>
-      </trans-unit>
-      <trans-unit id="Yu8-ve-3cT.text">
-        <source>John Smith</source>
-        <note>Class = "UILabel"; text = "John Smith"; ObjectID = "Yu8-ve-3cT";</note>
-      </trans-unit>
-      <trans-unit id="axF-rE-D1W.text">
-        <source>$44 USD</source>
-        <note>Class = "UILabel"; text = "$44 USD"; ObjectID = "axF-rE-D1W";</note>
-      </trans-unit>
-      <trans-unit id="eMu-SA-8L3.text">
-        <source>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "eMu-SA-8L3";</note>
-      </trans-unit>
-      <trans-unit id="jMN-dN-Vu2.text">
-        <source>$44 USD</source>
-        <note>Class = "UILabel"; text = "$44 USD"; ObjectID = "jMN-dN-Vu2";</note>
-      </trans-unit>
-      <trans-unit id="rVl-oZ-ib3.text">
-        <source>$44 USD</source>
-        <note>Class = "UILabel"; text = "$44 USD"; ObjectID = "rVl-oZ-ib3";</note>
-      </trans-unit>
-      <trans-unit id="t0W-ij-BKo.text">
-        <source>John Smith</source>
-        <note>Class = "UILabel"; text = "John Smith"; ObjectID = "t0W-ij-BKo";</note>
-      </trans-unit>
       <trans-unit id="x6d-mC-5Uf.text">
         <source>My Feed</source>
         <target>مستجدات</target>
@@ -1297,9 +1264,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/LoginStoryboard.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Localization/Base.lproj/LoginStoryboard.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="0w1-iB-LJP.normalTitle">
@@ -1340,12 +1307,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="Fqu-0M-TP9.text">
         <source>Connect with Buyers and Sellers. Send Photos, Videos and Shouts.</source>
         <target>راسل المعلنين بسهولة. أرسل صور و فيديو وإعلانات.</target>
-        <note>Class = "UILabel"; text = "Connect with Buyers and Sellers. Send Photos, Videos and Shouts."; ObjectID = "Fqu-0M-TP9";</note>
-      </trans-unit>
-      <trans-unit id="GEI-7W-x2d.text">
-        <source>List anything for FREE. Include Photos and Videos to appeal to Buyers.</source>
-        <target>يمكنك وضع صور وفيديو في إعلاناتك.</target>
-        <note>Class = "UILabel"; text = "List anything for FREE. Include Photos and Videos to appeal to Buyers."; ObjectID = "GEI-7W-x2d";</note>
+        <note>Class = "UILabel"; text = "Buy and Sell while Chatting"; ObjectID = "Fqu-0M-TP9";</note>
       </trans-unit>
       <trans-unit id="GcV-kC-fXX.text">
         <source>What interests you the most?</source>
@@ -1372,10 +1334,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>البريد الإلكتروني</target>
         <note>Class = "UITextField"; placeholder = "Email"; ObjectID = "N11-JB-SIw";</note>
       </trans-unit>
-      <trans-unit id="OfY-0g-YBp.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "OfY-0g-YBp";</note>
-      </trans-unit>
       <trans-unit id="P55-Vf-kY2.normalTitle">
         <source>Sign up / Log in with Email</source>
         <target>باستخدام البريد الإلكتروني</target>
@@ -1393,7 +1351,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="QGu-kD-nqv.normalTitle">
         <source>Skip</source>
-        <target>إلغاء</target>
+        <target>تخطي</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "QGu-kD-nqv";</note>
       </trans-unit>
       <trans-unit id="RaH-ti-Eac.placeholder">
@@ -1438,7 +1396,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="YRB-cn-kU9.normalTitle">
         <source>Skip</source>
-        <target>إالغاء</target>
+        <target>تخطي</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "YRB-cn-kU9";</note>
       </trans-unit>
       <trans-unit id="Zhq-6O-ODa.text">
@@ -1446,34 +1404,20 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>أهلاً بكم في شاوت ات</target>
         <note>Class = "UILabel"; text = "Welcome to Shoutit"; ObjectID = "Zhq-6O-ODa";</note>
       </trans-unit>
-      <trans-unit id="bbC-mk-YUZ.text">
-        <source>Shout</source>
-        <target>أعلن مجانا</target>
-        <note>Class = "UILabel"; text = "Shout"; ObjectID = "bbC-mk-YUZ";</note>
-      </trans-unit>
       <trans-unit id="esA-10-tDe.normalTitle">
         <source>Have an account? Log in</source>
         <target>هل يوجد لديك حساب؟ / تسجيل الدخول</target>
         <note>Class = "UIButton"; normalTitle = "Have an account? Log in"; ObjectID = "esA-10-tDe";</note>
       </trans-unit>
-      <trans-unit id="fZu-Xf-8hV.text">
-        <source>Find what you need in your Community or anywhere in the World.</source>
-        <target>ابحث عن كل شي تريده في منطقتك أو في أي مكان في العالم.</target>
-        <note>Class = "UILabel"; text = "Find what you need in your Community or anywhere in the World."; ObjectID = "fZu-Xf-8hV";</note>
-      </trans-unit>
       <trans-unit id="fg0-TH-CXc.text">
-        <source>Login and discover what others are selling in your neighborhood or start selling in seconds </source>
+        <source>Login and discover what others are selling in your neighborhood or start selling in seconds</source>
+        <target>سجل دخولك واكتشف ماذا يقوم الآخرين بالبيع في القرب منك أو قم بالبيع في ثواني</target>
         <note>Class = "UILabel"; text = "Login and discover what others are selling in your neighborhood or start selling in seconds "; ObjectID = "fg0-TH-CXc";</note>
-      </trans-unit>
-      <trans-unit id="hDf-O1-dvh.text">
-        <source>Search</source>
-        <target>ابحث</target>
-        <note>Class = "UILabel"; text = "Search"; ObjectID = "hDf-O1-dvh";</note>
       </trans-unit>
       <trans-unit id="hXd-vs-HMY.text">
         <source>Video Chat</source>
         <target>تحدث صوت وصورة</target>
-        <note>Class = "UILabel"; text = "Video Chat"; ObjectID = "hXd-vs-HMY";</note>
+        <note>Class = "UILabel"; text = "Welcome to Shoutit"; ObjectID = "hXd-vs-HMY";</note>
       </trans-unit>
       <trans-unit id="iKX-Fx-ZOg.placeholder">
         <source>Password</source>
@@ -1493,12 +1437,12 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="otB-pC-3lO.text">
         <source>Video is worth a thousand pictures! see what you want to buy live before buying it.</source>
         <target>الفيديو معبر اكثر!\nاتصل مع المعلنين مباشرة من خلال خدمة الفيديو شات.</target>
-        <note>Class = "UILabel"; text = "Video is worth a thousand pictures! see what you want to buy live before buying it."; ObjectID = "otB-pC-3lO";</note>
+        <note>Class = "UILabel"; text = "Buy and Sell while Chatting"; ObjectID = "otB-pC-3lO";</note>
       </trans-unit>
       <trans-unit id="pNC-Ay-C46.text">
         <source>Chat</source>
         <target>دردش</target>
-        <note>Class = "UILabel"; text = "Chat"; ObjectID = "pNC-Ay-C46";</note>
+        <note>Class = "UILabel"; text = "Welcome to Shoutit"; ObjectID = "pNC-Ay-C46";</note>
       </trans-unit>
       <trans-unit id="pZ6-XI-dIh.normalTitle">
         <source>Log in with Google</source>
@@ -1527,29 +1471,39 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="tVc-LS-ZZw.normalTitle">
         <source>Skip</source>
-        <target>إلغاء</target>
+        <target>تخطي</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "tVc-LS-ZZw";</note>
-      </trans-unit>
-      <trans-unit id="vhV-ST-5zt.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "vhV-ST-5zt";</note>
       </trans-unit>
       <trans-unit id="x1k-1E-QQr.normalTitle">
         <source>Log in</source>
         <target>تسجيل الدخول</target>
         <note>Class = "UIButton"; normalTitle = "Log in"; ObjectID = "x1k-1E-QQr";</note>
       </trans-unit>
+      <trans-unit id="GEI-7W-x2d.text">
+        <source>List anything for FREE. Include Photos and Videos to appeal to Buyers.</source>
+        <target>يمكنك وضع صور وفيديو في إعلاناتك.</target>
+        <note>Class = "UILabel"; text = "List anything for FREE. Include Photos and Videos to appeal to Buyers."; ObjectID = "GEI-7W-x2d";</note>
+      </trans-unit>
+      <trans-unit id="bbC-mk-YUZ.text">
+        <source>Shout</source>
+        <target>أعلن مجانا</target>
+        <note>Class = "UILabel"; text = "Shout"; ObjectID = "bbC-mk-YUZ";</note>
+      </trans-unit>
+      <trans-unit id="fZu-Xf-8hV.text">
+        <source>Find what you need in your Community or anywhere in the World.</source>
+        <target>ابحث عن كل شي تريده في منطقتك أو في أي مكان في العالم.</target>
+        <note>Class = "UILabel"; text = "Find what you need in your Community or anywhere in the World."; ObjectID = "fZu-Xf-8hV";</note>
+      </trans-unit>
+      <trans-unit id="hDf-O1-dvh.text">
+        <source>Search</source>
+        <target>ابحث</target>
+        <note>Class = "UILabel"; text = "Search"; ObjectID = "hDf-O1-dvh";</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Profile.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Localization/Base.lproj/Settings.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
-    </header>
-    <body/>
-  </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Settings.storyboard" source-language="en" datatype="plaintext" target-language="ar">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="aTs-Bq-b02.text">
@@ -1569,14 +1523,14 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="od8-aL-3Ox.title">
         <source>Settings</source>
-        <target>الضبط</target>
+        <target>الإعدادات</target>
         <note>Class = "UITableViewController"; title = "Settings"; ObjectID = "od8-aL-3Ox";</note>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Shout.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Localization/Base.lproj/Shout.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="3WJ-yE-7d1.normalTitle">
@@ -1606,7 +1560,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="C4A-6j-khU.text">
         <source>What are you posting?</source>
-        <target>ماذا تنشر ؟</target>
+        <target>ما هو نوع الإعلان؟</target>
         <note>Class = "UILabel"; text = "What are you posting?"; ObjectID = "C4A-6j-khU";</note>
       </trans-unit>
       <trans-unit id="Ei6-pW-gaf.normalTitle">
@@ -1710,7 +1664,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="pqA-Zk-PKv.normalTitle">
         <source>Add more details</source>
-        <target>إضافة معلومات أكثر</target>
+        <target>إضافة معلومات أخرى</target>
         <note>Class = "UIButton"; normalTitle = "Add more details"; ObjectID = "pqA-Zk-PKv";</note>
       </trans-unit>
       <trans-unit id="smS-Ws-rTF.text">
@@ -1725,13 +1679,13 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="zu9-Yn-93s.placeholder">
         <source>Description</source>
-        <target>الشرح</target>
+        <target>التفاصيل</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/EditProfile.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/EditProfile.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="7oi-GT-QO2.title">
@@ -1761,19 +1715,15 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Filter.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Filter.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="9RO-3f-vYA.text">
-        <source>Search within: </source>
+        <source>Search within:</source>
         <target>بحث ضمن:</target>
         <note>Class = "UILabel"; text = "Search within: "; ObjectID = "9RO-3f-vYA";</note>
-      </trans-unit>
-      <trans-unit id="41h-vW-IAU.normalTitle">
-        <source>Button</source>
-        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "41h-vW-IAU";</note>
       </trans-unit>
       <trans-unit id="B22-b0-hjV.text">
         <source>Location</source>
@@ -1795,18 +1745,10 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>السعر</target>
         <note>Class = "UILabel"; text = "Price"; ObjectID = "Gfz-GJ-JKv";</note>
       </trans-unit>
-      <trans-unit id="MqN-YC-Za6.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "MqN-YC-Za6";</note>
-      </trans-unit>
       <trans-unit id="OCB-fA-ZCw.normalTitle">
         <source>Location</source>
         <target>الموقع</target>
         <note>Class = "UIButton"; normalTitle = "Location"; ObjectID = "OCB-fA-ZCw";</note>
-      </trans-unit>
-      <trans-unit id="Pz0-Qb-xZc.normalTitle">
-        <source>Button</source>
-        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pz0-Qb-xZc";</note>
       </trans-unit>
       <trans-unit id="S1R-lh-cIJ.placeholder">
         <source>To</source>
@@ -1858,40 +1800,21 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>جيمع التصنيفات</target>
         <note>Class = "UIButton"; normalTitle = "All Categories"; ObjectID = "ofT-NM-U31";</note>
       </trans-unit>
-      <trans-unit id="qSo-0H-wno.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "qSo-0H-wno";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/HTML.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Home.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
-    </header>
-    <body/>
-  </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Home.storyboard" source-language="en" datatype="plaintext" target-language="ar">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
-      <trans-unit id="5LU-gw-tJA.text">
-        <source>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "5LU-gw-tJA";</note>
-      </trans-unit>
       <trans-unit id="9fl-Jy-3uV.title">
         <source>Home</source>
         <target>الرئيسية</target>
         <note>Class = "UINavigationItem"; title = "Home"; ObjectID = "9fl-Jy-3uV";</note>
       </trans-unit>
-      <trans-unit id="9jz-Ro-msM.text">
-        <source>$44 USD</source>
-        <note>Class = "UILabel"; text = "$44 USD"; ObjectID = "9jz-Ro-msM";</note>
-      </trans-unit>
       <trans-unit id="Gpo-QI-XW9.text">
         <source>MORE</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
         <note>Class = "UILabel"; text = "MORE"; ObjectID = "Gpo-QI-XW9";</note>
       </trans-unit>
       <trans-unit id="PFK-9S-LV6.text">
@@ -1904,51 +1827,31 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>مستجدات</target>
         <note>Class = "UILabel"; text = "My Feed"; ObjectID = "Pcc-xA-8Xa";</note>
       </trans-unit>
-      <trans-unit id="RCG-32-Miu.text">
-        <source>John Smith</source>
-        <note>Class = "UILabel"; text = "John Smith"; ObjectID = "RCG-32-Miu";</note>
-      </trans-unit>
       <trans-unit id="RN6-vH-JtN.text">
         <source>Cars</source>
         <target>السيارات</target>
         <note>Class = "UILabel"; text = "Cars"; ObjectID = "RN6-vH-JtN";</note>
-      </trans-unit>
-      <trans-unit id="RRw-th-eLm.text">
-        <source>John Smith</source>
-        <note>Class = "UILabel"; text = "John Smith"; ObjectID = "RRw-th-eLm";</note>
       </trans-unit>
       <trans-unit id="XEq-OI-7Sa.text">
         <source>DISCOVER</source>
         <target>إكتشف</target>
         <note>Class = "UILabel"; text = "DISCOVER"; ObjectID = "XEq-OI-7Sa";</note>
       </trans-unit>
-      <trans-unit id="YcE-Dk-RY6.text">
-        <source>2 hours ago</source>
-        <note>Class = "UILabel"; text = "2 hours ago"; ObjectID = "YcE-Dk-RY6";</note>
-      </trans-unit>
       <trans-unit id="c7k-qF-xRA.text">
         <source>MY FEED</source>
         <target>مستجدات</target>
         <note>Class = "UILabel"; text = "MY FEED"; ObjectID = "c7k-qF-xRA";</note>
-      </trans-unit>
-      <trans-unit id="fIE-Gj-UPD.text">
-        <source>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</source>
-        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "fIE-Gj-UPD";</note>
       </trans-unit>
       <trans-unit id="g4b-PM-Eek.text">
         <source>Offer</source>
         <target>عرض</target>
         <note>Class = "UILabel"; text = "Offer"; ObjectID = "g4b-PM-Eek";</note>
       </trans-unit>
-      <trans-unit id="xzi-n2-YF9.text">
-        <source>$44 USD</source>
-        <note>Class = "UILabel"; text = "$44 USD"; ObjectID = "xzi-n2-YF9";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/InviteFriends.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/InviteFriends.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="peX-Yc-7Ud.title">
@@ -1958,9 +1861,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Location.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Location.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="L9a-9e-ZYT.text">
@@ -1973,10 +1876,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>تغيير الموقع</target>
         <note>Class = "UINavigationItem"; title = "Change Location"; ObjectID = "O3n-tN-tin";</note>
       </trans-unit>
-      <trans-unit id="Ofa-r4-aEz.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "Ofa-r4-aEz";</note>
-      </trans-unit>
       <trans-unit id="PlB-kj-Hi1.text">
         <source>Title</source>
         <target>العنوان</target>
@@ -1985,10 +1884,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="QHl-jt-Ozq.text">
         <source>Title</source>
         <target>العنوان</target>
-      </trans-unit>
-      <trans-unit id="UfO-yi-Vvc.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "UfO-yi-Vvc";</note>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "QHl-jt-Ozq";</note>
       </trans-unit>
       <trans-unit id="WmU-c2-J42.title">
         <source>Change Location</source>
@@ -1997,9 +1893,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Menu.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Menu.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="DXa-6t-8fv.normalTitle">
@@ -2012,42 +1908,18 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>ضيف</target>
         <note>Class = "UILabel"; text = "Guest"; ObjectID = "FDW-SH-tlA";</note>
       </trans-unit>
-      <trans-unit id="H2H-0n-97D.text">
-        <source>Shoutit 2.0.0</source>
-        <note>Class = "UILabel"; text = "Shoutit 2.0.0"; ObjectID = "H2H-0n-97D";</note>
-      </trans-unit>
-      <trans-unit id="XRT-0N-mv4.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "XRT-0N-mv4";</note>
-      </trans-unit>
       <trans-unit id="fm0-dm-zPw.normalTitle">
         <source>Create Shout</source>
         <target>إنشاء إعلان</target>
-        <note>Class = "UIButton"; normalTitle = "  Create Shout"; ObjectID = "fm0-dm-zPw";</note>
-      </trans-unit>
-      <trans-unit id="pFm-S1-gZk.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "pFm-S1-gZk";</note>
-      </trans-unit>
-      <trans-unit id="ys9-SK-6FT.text">
-        <source>Poznań</source>
-        <note>Class = "UILabel"; text = "Poznań"; ObjectID = "ys9-SK-6FT";</note>
+        <note>Class = "UIButton"; normalTitle = " Create Shout"; ObjectID = "fm0-dm-zPw";</note>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Notifications.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Notifications.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
-      <trans-unit id="6DB-56-Wn9.text">
-        <source>Mon at 12:30</source>
-        <note>Class = "UILabel"; text = "Mon at 12:30"; ObjectID = "6DB-56-Wn9";</note>
-      </trans-unit>
-      <trans-unit id="jmj-I6-xkp.text">
-        <source>New Shout from Lenovo</source>
-        <note>Class = "UILabel"; text = "New Shout from Lenovo"; ObjectID = "jmj-I6-xkp";</note>
-      </trans-unit>
       <trans-unit id="vM0-V9-Bfq.title">
         <source>Notifications</source>
         <target>الإشعارات</target>
@@ -2055,9 +1927,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/PlaceholderCollectionViewCell.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/PlaceholderCollectionViewCell.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="Koj-Er-wgn.text">
@@ -2067,9 +1939,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsSectionHeader.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsSectionHeader.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="rGJ-3P-PqP.text">
@@ -2079,9 +1951,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsTableViewCell.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsTableViewCell.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="KZ7-CZ-FMm.text">
@@ -2096,9 +1968,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionFooterButtonSupplementeryView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionFooterButtonSupplementeryView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="Bza-6e-K90.normalTitle">
@@ -2108,9 +1980,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionInfoSupplementaryView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionInfoSupplementaryView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="5lp-g0-eW6.normalTitle">
@@ -2118,31 +1990,15 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>تفعيل الحساب!</target>
         <note>Class = "UIButton"; normalTitle = "Verify your account!"; ObjectID = "5lp-g0-eW6";</note>
       </trans-unit>
-      <trans-unit id="EQN-bl-1ww.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "EQN-bl-1ww";</note>
-      </trans-unit>
       <trans-unit id="Flv-lN-M3r.text">
         <source>Username</source>
         <target>إسم المستخدم</target>
         <note>Class = "UILabel"; text = "Username"; ObjectID = "Flv-lN-M3r";</note>
       </trans-unit>
-      <trans-unit id="KDv-JO-N1f.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "KDv-JO-N1f";</note>
-      </trans-unit>
       <trans-unit id="Mwz-aW-TRC.text">
         <source>listening to you</source>
         <target>يستمع إليك</target>
         <note>Class = "UILabel"; text = "listening to you"; ObjectID = "Mwz-aW-TRC";</note>
-      </trans-unit>
-      <trans-unit id="TWk-RE-4Gq.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "TWk-RE-4Gq";</note>
-      </trans-unit>
-      <trans-unit id="qLN-yo-Sdx.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "qLN-yo-Sdx";</note>
       </trans-unit>
       <trans-unit id="zC2-Xl-F8D.text">
         <source>Firstname Lastname</source>
@@ -2151,9 +2007,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Root.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Root.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="3UP-c6-K4D.normalTitle">
@@ -2183,9 +2039,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Search.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Search.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="U0e-yr-YM8.title">
@@ -2220,9 +2076,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchCategoriesHeaderView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchCategoriesHeaderView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="Elx-zv-xcg.text">
@@ -2232,9 +2088,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchRecentsHeaderView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchRecentsHeaderView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="BqK-xy-XUG.normalTitle">
@@ -2249,9 +2105,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllCollectionViewCell.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllCollectionViewCell.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="0nz-86-atn.text">
@@ -2261,9 +2117,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllShouts.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllShouts.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="9cE-V8-2fa.title">
@@ -2273,27 +2129,15 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/ShoutDetail.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/ShoutDetail.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
-      <trans-unit id="3UM-EM-oSg.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "3UM-EM-oSg";</note>
-      </trans-unit>
-      <trans-unit id="5SK-UK-Q7I.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "5SK-UK-Q7I";</note>
-      </trans-unit>
       <trans-unit id="Eem-sc-Nfz.normalTitle">
         <source>Policies</source>
         <target>السياسات</target>
         <note>Class = "UIButton"; normalTitle = "Policies"; ObjectID = "Eem-sc-Nfz";</note>
-      </trans-unit>
-      <trans-unit id="IVW-DI-OK5.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "IVW-DI-OK5";</note>
       </trans-unit>
       <trans-unit id="OF4-56-wbL.text">
         <source>Name</source>
@@ -2305,22 +2149,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>السعر</target>
         <note>Class = "UILabel"; text = "Price"; ObjectID = "RFV-cQ-2AI";</note>
       </trans-unit>
-      <trans-unit id="TJp-qU-nfC.text">
-        <source>Header</source>
-        <note>Class = "UILabel"; text = "Header"; ObjectID = "TJp-qU-nfC";</note>
-      </trans-unit>
-      <trans-unit id="Vxt-8o-2k0.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "Vxt-8o-2k0";</note>
-      </trans-unit>
-      <trans-unit id="X2c-Q6-8hK.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "X2c-Q6-8hK";</note>
-      </trans-unit>
-      <trans-unit id="ZvU-8u-sz5.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "ZvU-8u-sz5";</note>
-      </trans-unit>
       <trans-unit id="bMb-en-aRa.normalTitle">
         <source>Add to Cart</source>
         <target>اضافة إلى السلة</target>
@@ -2328,7 +2156,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="cS6-vn-fHD.normalTitle">
         <source>More</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
         <note>Class = "UIButton"; normalTitle = "More"; ObjectID = "cS6-vn-fHD";</note>
       </trans-unit>
       <trans-unit id="dlw-u9-I8B.normalTitle">
@@ -2336,33 +2164,21 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>مكالمة</target>
         <note>Class = "UIButton"; normalTitle = "Call"; ObjectID = "dlw-u9-I8B";</note>
       </trans-unit>
-      <trans-unit id="ibG-bb-S7x.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "ibG-bb-S7x";</note>
-      </trans-unit>
       <trans-unit id="kqz-M3-3o4.normalTitle">
         <source>Chat</source>
         <target>محادثة</target>
         <note>Class = "UIButton"; normalTitle = "Chat"; ObjectID = "kqz-M3-3o4";</note>
-      </trans-unit>
-      <trans-unit id="mYl-ac-2Q9.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "mYl-ac-2Q9";</note>
       </trans-unit>
       <trans-unit id="p0q-c1-KFK.normalTitle">
         <source>Video call</source>
         <target>مكالمة فيديو</target>
         <note>Class = "UIButton"; normalTitle = "Video call"; ObjectID = "p0q-c1-KFK";</note>
       </trans-unit>
-      <trans-unit id="tO4-jw-2Gj.text">
-        <source>Label</source>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "tO4-jw-2Gj";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/TableViewPlaceholderView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/TableViewPlaceholderView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="fbK-dy-4cC.text">
@@ -2372,9 +2188,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/VerifyEmail.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/VerifyEmail.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="3n1-kw-tkU.text">
@@ -2405,7 +2221,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="QyQ-mg-M4d.text">
         <source>We have sent you a verification link on this email. Please check your inbox and click on it to verify your account. You can also change the email and click “Resend” for us to send you the verification link again.</source>
         <target>تم إرسال رابط التفعيل على بريدك الإلكتروني. يرجى التحقق من بريدك الإلكتروني والضغط على الرابط للتحقق من الحساب. تستطيع ايضاً تبديل البريد الإلكتروني من خلال الضغط على "إعادة إرسال" وسنرسل لك رابط التحقق مرة اخرى.</target>
-        <note>Class = "UILabel"; text = "We have sent you a verification link on this email. Please check your inbox and click on it to verify your account. You can also change the email and click “Resend” for us to send you the verification link again."; ObjectID = "QyQ-mg-M4d";</note>
+        <note>Class = "UILabel"; text = "We have sent you a verification link on this email. Please check your inbox and click on it to verify your account.\n\nYou can also change the email and click “Resend” for us to send you the verification link again."; ObjectID = "QyQ-mg-M4d";</note>
       </trans-unit>
       <trans-unit id="wQK-uY-5kn.placeholder">
         <source>Email</source>
@@ -2414,9 +2230,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/VideoCalls.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/VideoCalls.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="6Fl-rk-iIB.normalTitle">
@@ -2456,14 +2272,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/UVResources/en.lproj/UserVoice.strings" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/UVResources/en.lproj/UserVoice.strings" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
-      <trans-unit id="%@ (required)">
-        <source>%@ (required)</source>
-      </trans-unit>
       <trans-unit id="%@ ideas">
         <source>%@ ideas</source>
         <target>%@ فكرة</target>
@@ -2471,12 +2284,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="%d people">
         <source>%d people</source>
         <target>%d أشخاص</target>
-      </trans-unit>
-      <trans-unit id="(none)">
-        <source>(none)</source>
-      </trans-unit>
-      <trans-unit id="(required)">
-        <source>(required)</source>
       </trans-unit>
       <trans-unit id="1 idea">
         <source>1 idea</source>
@@ -2678,19 +2485,13 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <source>Post an idea</source>
         <target>نشر فكرة</target>
       </trans-unit>
-      <trans-unit id="Powered by UserVoice">
-        <source>Powered by UserVoice</source>
-      </trans-unit>
-      <trans-unit id="Ranked %@">
-        <source>Ranked %@</source>
-      </trans-unit>
       <trans-unit id="Related articles">
         <source>Related articles</source>
-        <target>مواضيع متعلقة</target>
+        <target>مواضيع مشابهة</target>
       </trans-unit>
       <trans-unit id="Related feedback">
         <source>Related feedback</source>
-        <target>تقييمات متعلقة</target>
+        <target>تقييمات مشابهة</target>
       </trans-unit>
       <trans-unit id="Save draft">
         <source>Save draft</source>
@@ -2718,7 +2519,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Skip">
         <source>Skip</source>
-        <target>إلغاء</target>
+        <target>تخطي</target>
       </trans-unit>
       <trans-unit id="Sorry, there was an error in the application.">
         <source>Sorry, there was an error in the application.</source>
@@ -2735,9 +2536,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="There was a problem logging you in.">
         <source>There was a problem logging you in.</source>
         <target>حدث خطأ أثناء تسجيل الدخول</target>
-      </trans-unit>
-      <trans-unit id="This application didn't configure UserVoice properly">
-        <source>This application didn't configure UserVoice properly</source>
       </trans-unit>
       <trans-unit id="Title">
         <source>Title</source>
@@ -2801,7 +2599,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="more">
         <source>more</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
       </trans-unit>
       <trans-unit id="select">
         <source>select</source>
@@ -2821,9 +2619,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/ConversationLoadMoreFooter.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/View/Base.lproj/ConversationLoadMoreFooter.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="Ach-P5-Xfj.normalTitle">
@@ -2833,9 +2631,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/DiscoverHeaderView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/View/Base.lproj/DiscoverHeaderView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="1SC-nb-8Ha.text">
@@ -2845,9 +2643,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutFooterView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutFooterView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="LmL-zp-ic0.normalTitle">
@@ -2857,9 +2655,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutsHeaderView.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutsHeaderView.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="Y1q-7a-GsE.text">
@@ -2869,9 +2667,9 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/IncomingLocationCell.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/View/Base.lproj/IncomingLocationCell.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="3VC-ik-jc1.text">
@@ -2879,15 +2677,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>إظهار الخريطة</target>
         <note>Class = "UILabel"; text = "Show Map"; ObjectID = "3VC-ik-jc1";</note>
       </trans-unit>
-      <trans-unit id="hxf-BT-R6e.text">
-        <source>18:00</source>
-        <note>Class = "UILabel"; text = "18:00"; ObjectID = "hxf-BT-R6e";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/OutgoingLocationCell.xib" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphone/View/Base.lproj/OutgoingLocationCell.xib" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="8Hg-mi-OYs.text">
@@ -2895,132 +2689,22 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>إظهار الخريطة</target>
         <note>Class = "UILabel"; text = "Show Map"; ObjectID = "8Hg-mi-OYs";</note>
       </trans-unit>
-      <trans-unit id="BH2-xc-d12.text">
-        <source>18:00</source>
-        <note>Class = "UILabel"; text = "18:00"; ObjectID = "BH2-xc-d12";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphoneTests/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphoneTests/Info.plist" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>شاوت ات</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-      </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphoneTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="ar">
+  <file original="shoutit-iphoneUITests/Info.plist" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
-    </header>
-    <body>
-      <trans-unit id="+99">
-        <source>+99</source>
-        <note>More than 99 Notifications</note>
-      </trans-unit>
-      <trans-unit id="About">
-        <source>About</source>
-        <note>Settings cell title</note>
-      </trans-unit>
-      <trans-unit id="Account">
-        <source>Account</source>
-        <note>Settings cell title</note>
-      </trans-unit>
-      <trans-unit id="Auto">
-        <source>Auto</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Automatically Location Updates">
-        <source>Automatically Location Updates</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Browse">
-        <source>Browse</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Chats">
-        <source>Chats</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Current location:">
-        <source>Current location:</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Discover">
-        <source>Discover</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Email">
-        <source>Email</source>
-        <note>Settings cell title</note>
-      </trans-unit>
-      <trans-unit id="Guest">
-        <source>Guest</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Help">
-        <source>Help</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Home">
-        <source>Home</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Invite Friends">
-        <source>Invite Friends</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Log out">
-        <source>Log out</source>
-        <note>Settings cell title</note>
-      </trans-unit>
-      <trans-unit id="Notification">
-        <source>Notification</source>
-        <note>Settings cell title</note>
-      </trans-unit>
-      <trans-unit id="Orders">
-        <source>Orders</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Password">
-        <source>Password</source>
-        <note>Settings cell title</note>
-      </trans-unit>
-      <trans-unit id="Settings">
-        <source>Settings</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Turn Off">
-        <source>Turn Off</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Turn On">
-        <source>Turn On</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Unsupported Title">
-        <source>Unsupported Title</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Your location will be updated automatically">
-        <source>Your location will be updated automatically</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="shoutit-iphoneUITests/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
