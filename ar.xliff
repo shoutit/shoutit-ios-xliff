@@ -21,12 +21,10 @@
     <body>
       <trans-unit id=" Details">
         <source> Details</source>
-        <target>التفاصيل</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id=" Location">
         <source> Location</source>
-        <target>الموقع</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%%x Listened to you">
@@ -40,7 +38,7 @@
       </trans-unit>
       <trans-unit id="%@ Admins">
         <source>%@ Admins</source>
-        <target>مدراء %@</target>
+        <target>%@ مدراء</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ Listeners">
@@ -50,16 +48,17 @@
       </trans-unit>
       <trans-unit id="%@ Pages">
         <source>%@ Pages</source>
-        <target>صفحات %@</target>
+        <target>%@ صفحات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ Shouts">
         <source>%@ Shouts</source>
-        <target>إعلانات %@</target>
+        <target>%@ إعلانات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%d Shouts">
         <source>%d Shouts</source>
+        <target>%d إعلانات</target>
         <note>Search results count string</note>
       </trans-unit>
       <trans-unit id="(location.city), (location.country)">
@@ -98,10 +97,12 @@
       </trans-unit>
       <trans-unit id="Auto">
         <source>Auto</source>
+        <target>تلقائي</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Automatically Location Updates">
         <source>Automatically Location Updates</source>
+        <target>تحديث موقع تلقائي</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Bio">
@@ -266,6 +267,7 @@
       </trans-unit>
       <trans-unit id="Current location:">
         <source>Current location:</source>
+        <target>الموقع الحالي:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Date">
@@ -441,7 +443,6 @@
       </trans-unit>
       <trans-unit id="Incoming Call from ">
         <source>Incoming Call from </source>
-        <target>مكالمة واردة من </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Interests">
@@ -462,7 +463,6 @@
       </trans-unit>
       <trans-unit id="K">
         <source>K</source>
-        <target>ألف</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last name">
@@ -482,7 +482,7 @@
       </trans-unit>
       <trans-unit id="Listen">
         <source>Listen</source>
-        <target>استماع</target>
+        <target>إستماع</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Listeners">
@@ -492,7 +492,7 @@
       </trans-unit>
       <trans-unit id="Listening">
         <source>Listening</source>
-        <target>استماعات</target>
+        <target>إستماعات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Loading Messages...">
@@ -518,7 +518,6 @@
       </trans-unit>
       <trans-unit id="M">
         <source>M</source>
-        <target>مليون</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Mark all as read">
@@ -533,12 +532,12 @@
       </trans-unit>
       <trans-unit id="More">
         <source>More</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="More shouts from %@">
         <source>More shouts from %@</source>
-        <target>إعلانات أكثر من %@</target>
+        <target>إعلانات بواسطة %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="My Pages">
@@ -603,7 +602,7 @@
       </trans-unit>
       <trans-unit id="No more messages to show">
         <source>No more messages to show</source>
-        <target>لا يوجد رسائل اكثر للعرض</target>
+        <target>لا يوجد رسائل أخرى للعرض</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No notifications to show">
@@ -638,7 +637,7 @@
       </trans-unit>
       <trans-unit id="Notification">
         <source>Notification</source>
-        <target>الإشعارات</target>
+        <target>إشعار</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Notification Settings">
@@ -764,17 +763,17 @@
       </trans-unit>
       <trans-unit id="Related Interests">
         <source>Related Interests</source>
-        <target>إهتمامات متعلقة</target>
+        <target>إهتمامات مشابهة</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Related Shouts">
         <source>Related Shouts</source>
-        <target>إعلانات متعلقة</target>
+        <target>إعلانات مشابهة</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Related shouts">
         <source>Related shouts</source>
-        <target>إعلانات متعلقة</target>
+        <target>إعلانات مشابهة</target>
         <note>Shout detail</note>
       </trans-unit>
       <trans-unit id="Remove">
@@ -809,7 +808,7 @@
       </trans-unit>
       <trans-unit id="Results for '%@'">
         <source>Results for '%@'</source>
-        <target>نتائج '%@'</target>
+        <target>النتائج ل '%@'</target>
         <note>Search results for search phrase section header</note>
       </trans-unit>
       <trans-unit id="Search Shoutit">
@@ -824,7 +823,7 @@
       </trans-unit>
       <trans-unit id="Search in %@ shouts">
         <source>Search in %@ shouts</source>
-        <target>بحث في %@</target>
+        <target>إبحث في إعلانات %@</target>
         <note>Search text field placeholder</note>
       </trans-unit>
       <trans-unit id="See All Shouts">
@@ -844,7 +843,7 @@
       </trans-unit>
       <trans-unit id="Send Attachment">
         <source>Send Attachment</source>
-        <target>إرسال مرفقات</target>
+        <target>إرسال</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sending message">
@@ -909,7 +908,7 @@
       </trans-unit>
       <trans-unit id="Stop Listening">
         <source>Stop Listening</source>
-        <target>الغاء الإستماع</target>
+        <target>إلغاء الإستماع</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Suggested Pages">
@@ -940,10 +939,12 @@
       </trans-unit>
       <trans-unit id="Turn Off">
         <source>Turn Off</source>
+        <target>إطفاء</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn On">
         <source>Turn On</source>
+        <target>تشغيل</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Type">
@@ -993,12 +994,12 @@
       </trans-unit>
       <trans-unit id="View Profile">
         <source>View Profile</source>
-        <target>رؤية الصفحة الشخصية</target>
+        <target>عرض الصفحة الشخصية</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Visit %@'s profile">
         <source>Visit %@'s profile</source>
-        <target>زيارة صفحة %@</target>
+        <target>زيارة صفحة %@ الشخصية</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Website">
@@ -1028,7 +1029,7 @@
       </trans-unit>
       <trans-unit id="You can start new conversation in shout details or user profile.">
         <source>You can start new conversation in shout details or user profile.</source>
-        <target>يمكنك بدء محادثة في تفاصيل الإعلان او صفحة المستخدم</target>
+        <target>يمكنك بدء محادثة في صفحة الإعلان او صفحة المستخدم</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You can't chat with yourself">
@@ -1038,12 +1039,12 @@
       </trans-unit>
       <trans-unit id="You have successfully started listening to %@">
         <source>You have successfully started listening to %@</source>
-        <target>لقد بدأت بالإستماع إلى إعلانات %@</target>
+        <target>لقد قمت بالإستماع إلى %@ بنجاح</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You have successfully stopped listening to %@">
         <source>You have successfully stopped listening to %@</source>
-        <target>لقد توقفت عن الإستماع إلى إعلانات %@</target>
+        <target>لقد توقفت عن الإستماع إلى %@ بنجاح</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You must be logged in to perform this action">
@@ -1063,11 +1064,12 @@
       </trans-unit>
       <trans-unit id="Your location will be updated automatically">
         <source>Your location will be updated automatically</source>
+        <target>سيتم تحديد موقعك تلقائيا</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your offer &quot;%@&quot; will appear on Shoutit soon.">
         <source>Your offer "%@" will appear on Shoutit soon.</source>
-        <target>سيظهر إعلانك "@%" على شاوت ات بعد قليل.</target>
+        <target>سيظهر إعلانك على شاوت ات بعد قليل.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your offer will appear on Shoutit soon.">
@@ -1077,7 +1079,7 @@
       </trans-unit>
       <trans-unit id="Your request &quot;%@&quot; will appear on Shoutit soon.">
         <source>Your request "%@" will appear on Shoutit soon.</source>
-        <target>سيظهر إعلانك "@%" على شاوت ات بعد قليل.</target>
+        <target>سيظهر إعلانك على شاوت ات بعد قليل.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your request will appear on Shoutit soon.">
@@ -1160,7 +1162,7 @@
       </trans-unit>
       <trans-unit id="7lD-XO-jLv.text">
         <source>Participants</source>
-        <target>منتسبون</target>
+        <target>المشاركون</target>
         <note>Class = "UILabel"; text = "Participants"; ObjectID = "7lD-XO-jLv";</note>
       </trans-unit>
       <trans-unit id="Ejl-rm-dWM.text">
@@ -1324,7 +1326,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="2sy-bq-ms4.text">
         <source>Search</source>
-        <target>ابحث</target>
         <note>Class = "UILabel"; text = "Search"; ObjectID = "2sy-bq-ms4";</note>
       </trans-unit>
       <trans-unit id="7eJ-mp-XEv.normalTitle">
@@ -1334,7 +1335,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="14e-Rq-a3Y.text">
         <source>List anything for FREE. Include Photos and Videos to appeal to Buyers.</source>
-        <target>يمكنك وضع صور وفيديو في إعلاناتك.</target>
         <note>Class = "UILabel"; text = "List anything for FREE. Include Photos and Videos to appeal to Buyers."; ObjectID = "14e-Rq-a3Y";</note>
       </trans-unit>
       <trans-unit id="A0X-MT-0sG.text">
@@ -1359,9 +1359,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Fqu-0M-TP9.text">
         <source>Connect with Buyers and Sellers. Send Photos, Videos and Shouts.</source>
+        <target>راسل المعلنين بسهولة. أرسل صور و فيديو وإعلانات.</target>
       </trans-unit>
       <trans-unit id="GEI-7W-x2d.text">
         <source>List anything for FREE. Include Photos and Videos to appeal to Buyers.</source>
+        <target>يمكنك وضع صور وفيديو في إعلاناتك.</target>
       </trans-unit>
       <trans-unit id="GcV-kC-fXX.text">
         <source>What interests you the most?</source>
@@ -1375,7 +1377,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Gv6-Vf-08z.text">
         <source>Welcome to Shoutit</source>
-        <target>أهلاً بكم في شاوت ات</target>
         <note>Class = "UILabel"; text = "Welcome to Shoutit"; ObjectID = "Gv6-Vf-08z";</note>
       </trans-unit>
       <trans-unit id="HYX-k8-0GR.title">
@@ -1385,11 +1386,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="KGf-9Z-ybk.text">
         <source>Connect with Buyers and Sellers. Send Photos, Videos and Shouts.</source>
-        <target>راسل المعلنين بسهولة. أرسل صور و فيديو وإعلانات.</target>
         <note>Class = "UILabel"; text = "Connect with Buyers and Sellers. Send Photos, Videos and Shouts."; ObjectID = "KGf-9Z-ybk";</note>
       </trans-unit>
       <trans-unit id="L2w-j2-mMw.normalTitle">
         <source>Log in with Facebook</source>
+        <target>تسجيل الدخول بإسنخدام فيس بوك</target>
       </trans-unit>
       <trans-unit id="N11-JB-SIw.placeholder">
         <source>Email</source>
@@ -1402,6 +1403,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="P55-Vf-kY2.normalTitle">
         <source>Sign up / Log in with Email</source>
+        <target>باستخدام البريد الإلكتروني</target>
       </trans-unit>
       <trans-unit id="PgP-fT-oWw.normalTitle">
         <source>Help</source>
@@ -1415,7 +1417,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="QGu-kD-nqv.normalTitle">
         <source>Skip</source>
-        <target>إلغاء</target>
+        <target>تخطي</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "QGu-kD-nqv";</note>
       </trans-unit>
       <trans-unit id="RaH-ti-Eac.placeholder">
@@ -1430,23 +1432,18 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Rwd-Tt-HmF.text">
         <source>Find what you need in your Community or anywhere in the World.</source>
-        <target>ابحث عن كل شي تريده في منطقتك أو في أي مكان في العالم.</target>
         <note>Class = "UILabel"; text = "Find what you need in your Community or anywhere in the World."; ObjectID = "Rwd-Tt-HmF";</note>
       </trans-unit>
       <trans-unit id="Soz-bA-Q3z.text">
         <source>Buy and Sell while Chatting</source>
-        <target>بيع و اشتري وأنت تدردش!</target>
         <note>Class = "UILabel"; text = "Buy and Sell while Chatting"; ObjectID = "Soz-bA-Q3z";</note>
       </trans-unit>
       <trans-unit id="V9W-3j-fHJ.text">
         <source>Video is worth a thousand pictures! see what you want to buy live before buying it.</source>
-        <target>الفيديو معبر اكثر!
-اتصل مع المعلنين مباشرة من خلال خدمة الفيديو شات.</target>
         <note>Class = "UILabel"; text = "Video is worth a thousand pictures! see what you want to buy live before buying it."; ObjectID = "V9W-3j-fHJ";</note>
       </trans-unit>
       <trans-unit id="VwE-WR-Gmn.text">
         <source>Log in with Facebook</source>
-        <target>تسجيل الدخول بإسنخدام فيس بوك</target>
         <note>Class = "UILabel"; text = "Log in with Facebook"; ObjectID = "VwE-WR-Gmn";</note>
       </trans-unit>
       <trans-unit id="Wji-o7-jPI.title">
@@ -1481,14 +1478,16 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="YRB-cn-kU9.normalTitle">
         <source>Skip</source>
-        <target>إالغاء</target>
+        <target>تخطي</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "YRB-cn-kU9";</note>
       </trans-unit>
       <trans-unit id="Zhq-6O-ODa.text">
         <source>Welcome to Shoutit</source>
+        <target>أهلاً بكم في شاوت ات</target>
       </trans-unit>
       <trans-unit id="bbC-mk-YUZ.text">
         <source>Shout</source>
+        <target>أعلن مجانا</target>
       </trans-unit>
       <trans-unit id="esA-10-tDe.normalTitle">
         <source>Have an account? Log in</source>
@@ -1497,10 +1496,10 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="fZu-Xf-8hV.text">
         <source>Find what you need in your Community or anywhere in the World.</source>
+        <target>ابحث عن كل شي تريده في منطقتك أو في أي مكان في العالم.</target>
       </trans-unit>
       <trans-unit id="ff2-Jg-zkJ.text">
         <source>Log in with Google</source>
-        <target>تسجيل الدخول بإستخدام غوغل</target>
         <note>Class = "UILabel"; text = "Log in with Google"; ObjectID = "ff2-Jg-zkJ";</note>
       </trans-unit>
       <trans-unit id="fg0-TH-CXc.text">
@@ -1509,9 +1508,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="hDf-O1-dvh.text">
         <source>Search</source>
+        <target>ابحث</target>
       </trans-unit>
       <trans-unit id="hXd-vs-HMY.text">
         <source>Video Chat</source>
+        <target>تحدث صوت وصورة</target>
       </trans-unit>
       <trans-unit id="iKX-Fx-ZOg.placeholder">
         <source>Password</source>
@@ -1525,7 +1526,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="l8Q-QA-1Iv.text">
         <source>Sign up / Log in with Email</source>
-        <target>باستخدام البريد الإلكتروني</target>
         <note>Class = "UILabel"; text = "Sign up / Log in with Email"; ObjectID = "l8Q-QA-1Iv";</note>
       </trans-unit>
       <trans-unit id="mgc-hU-1eG.normalTitle">
@@ -1535,20 +1535,23 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="o79-CH-fAu.text">
         <source>Video Chat</source>
-        <target>تحدث صوت وصورة</target>
         <note>Class = "UILabel"; text = "Video Chat"; ObjectID = "o79-CH-fAu";</note>
       </trans-unit>
       <trans-unit id="otB-pC-3lO.text">
         <source>Video is worth a thousand pictures! see what you want to buy live before buying it.</source>
+        <target>الفيديو معبر اكثر!\nاتصل مع المعلنين مباشرة من خلال خدمة الفيديو شات.</target>
       </trans-unit>
       <trans-unit id="pNC-Ay-C46.text">
         <source>Chat</source>
+        <target>دردش</target>
       </trans-unit>
       <trans-unit id="pZ6-XI-dIh.normalTitle">
         <source>Log in with Google</source>
+        <target>تسجيل الدخول بإستخدام غوغل</target>
       </trans-unit>
       <trans-unit id="qd5-UA-hrc.text">
         <source>Buy and Sell while Chatting</source>
+        <target>بيع و اشتري وأنت تدردش!</target>
       </trans-unit>
       <trans-unit id="qkS-QO-udz.normalTitle">
         <source>New to Shoutit? Sign up</source>
@@ -1567,12 +1570,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="tJ8-OD-CZp.text">
         <source>Shout</source>
-        <target>أعلن مجانا</target>
         <note>Class = "UILabel"; text = "Shout"; ObjectID = "tJ8-OD-CZp";</note>
       </trans-unit>
       <trans-unit id="tVc-LS-ZZw.normalTitle">
         <source>Skip</source>
-        <target>إلغاء</target>
+        <target>تخطي</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "tVc-LS-ZZw";</note>
       </trans-unit>
       <trans-unit id="vhV-ST-5zt.text">
@@ -1581,7 +1583,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="w16-Jq-7nF.text">
         <source>Chat</source>
-        <target>دردش</target>
         <note>Class = "UILabel"; text = "Chat"; ObjectID = "w16-Jq-7nF";</note>
       </trans-unit>
       <trans-unit id="x1k-1E-QQr.normalTitle">
@@ -1619,7 +1620,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="od8-aL-3Ox.title">
         <source>Settings</source>
-        <target>الضبط</target>
+        <target>الإعدادات</target>
         <note>Class = "UITableViewController"; title = "Settings"; ObjectID = "od8-aL-3Ox";</note>
       </trans-unit>
     </body>
@@ -1656,7 +1657,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="C4A-6j-khU.text">
         <source>What are you posting?</source>
-        <target>ماذا تنشر ؟</target>
+        <target>ما هو نوع الإعلان؟</target>
         <note>Class = "UILabel"; text = "What are you posting?"; ObjectID = "C4A-6j-khU";</note>
       </trans-unit>
       <trans-unit id="Ei6-pW-gaf.normalTitle">
@@ -1760,7 +1761,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="pqA-Zk-PKv.normalTitle">
         <source>Add more details</source>
-        <target>إضافة معلومات أكثر</target>
+        <target>إضافة معلومات أخرى</target>
         <note>Class = "UIButton"; normalTitle = "Add more details"; ObjectID = "pqA-Zk-PKv";</note>
       </trans-unit>
       <trans-unit id="smS-Ws-rTF.text">
@@ -1775,7 +1776,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="zu9-Yn-93s.placeholder">
         <source>Description</source>
-        <target>الشرح</target>
+        <target>التفاصيل</target>
       </trans-unit>
     </body>
   </file>
@@ -1818,7 +1819,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
     <body>
       <trans-unit id="9RO-3f-vYA.text">
         <source>Search within: </source>
-        <target>بحث ضمن:</target>
         <note>Class = "UILabel"; text = "Search within: "; ObjectID = "9RO-3f-vYA";</note>
       </trans-unit>
       <trans-unit id="41h-vW-IAU.normalTitle">
@@ -1941,7 +1941,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Gpo-QI-XW9.text">
         <source>MORE</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
         <note>Class = "UILabel"; text = "MORE"; ObjectID = "Gpo-QI-XW9";</note>
       </trans-unit>
       <trans-unit id="PFK-9S-LV6.text">
@@ -2072,6 +2072,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="fm0-dm-zPw.normalTitle">
         <source>Create Shout</source>
+        <target>إنشاء إعلان</target>
       </trans-unit>
       <trans-unit id="pFm-S1-gZk.text">
         <source>Label</source>
@@ -2079,7 +2080,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="uFf-Pq-9uJ.text">
         <source>Create Shout</source>
-        <target>إنشاء إعلان</target>
         <note>Class = "UILabel"; text = "Create Shout"; ObjectID = "uFf-Pq-9uJ";</note>
       </trans-unit>
       <trans-unit id="ys9-SK-6FT.text">
@@ -2381,7 +2381,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="cS6-vn-fHD.normalTitle">
         <source>More</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
         <note>Class = "UIButton"; normalTitle = "More"; ObjectID = "cS6-vn-fHD";</note>
       </trans-unit>
       <trans-unit id="dlw-u9-I8B.normalTitle">
@@ -2739,11 +2739,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Related articles">
         <source>Related articles</source>
-        <target>مواضيع متعلقة</target>
+        <target>مواضيع مشابهة</target>
       </trans-unit>
       <trans-unit id="Related feedback">
         <source>Related feedback</source>
-        <target>تقييمات متعلقة</target>
+        <target>تقييمات مشابهة</target>
       </trans-unit>
       <trans-unit id="Save draft">
         <source>Save draft</source>
@@ -2771,7 +2771,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Skip">
         <source>Skip</source>
-        <target>إلغاء</target>
+        <target>تخطي</target>
       </trans-unit>
       <trans-unit id="Sorry, there was an error in the application.">
         <source>Sorry, there was an error in the application.</source>
@@ -2854,7 +2854,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="more">
         <source>more</source>
-        <target>أكثر</target>
+        <target>المزيد</target>
       </trans-unit>
       <trans-unit id="select">
         <source>select</source>
@@ -2975,6 +2975,143 @@ Hat, Chunky Textured Knit Hat and more text</source>
     <body>
       <trans-unit id="About">
         <source>About</source>
+        <target>حول</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Account">
+        <source>Account</source>
+        <target>الحساب</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Auto">
+        <source>Auto</source>
+        <target>تلقائي</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Automatically Location Updates">
+        <source>Automatically Location Updates</source>
+        <target>تحديث موقع تلقائي</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Browse">
+        <source>Browse</source>
+        <target>إستعرض</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>إلغاء</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Chats">
+        <source>Chats</source>
+        <target>المحادثات</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Current location:">
+        <source>Current location:</source>
+        <target>الموقع الحالي:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Discover">
+        <source>Discover</source>
+        <target>إكتشف</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Email">
+        <source>Email</source>
+        <target>البريد الإلكتروني</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Guest">
+        <source>Guest</source>
+        <target>ضيف</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Help">
+        <source>Help</source>
+        <target>المساعدة</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Home">
+        <source>Home</source>
+        <target>الرئيسية</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invite Friends">
+        <source>Invite Friends</source>
+        <target>دعوة الأصدقاء</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Log out">
+        <source>Log out</source>
+        <target>تسجيل الخروج</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Notification">
+        <source>Notification</source>
+        <target>إشعار</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Orders">
+        <source>Orders</source>
+        <target>المشتريات</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <target>كلمة المرور</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <target>الإعدادات</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Turn Off">
+        <source>Turn Off</source>
+        <target>إطفاء</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <target>تشغيل</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unsupported Title">
+        <source>Unsupported Title</source>
+        <target>العنوان غير معروف</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your location will be updated automatically">
+        <source>Your location will be updated automatically</source>
+        <target>سيتم تحديد موقعك تلقائيا</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="shoutit-iphoneUITests/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>شاوت ات</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>-</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="shoutit-iphoneUITests/Localizable.strings" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
+    </header>
+    <body>
+      <trans-unit id="About">
+        <source>About</source>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Account">
@@ -3064,21 +3201,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="Your location will be updated automatically">
         <source>Your location will be updated automatically</source>
         <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="shoutit-iphoneUITests/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>شاوت ات</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>-</target>
       </trans-unit>
     </body>
   </file>
