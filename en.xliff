@@ -719,6 +719,11 @@
         <target>Please provide a report message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Please select %@">
+        <source>Please select %@</source>
+        <target>Please select %@</target>
+        <note>Create Shout: choose filter: Action sheet title</note>
+      </trans-unit>
       <trans-unit id="Please select Category">
         <source>Please select Category</source>
         <target>Please select Category</target>

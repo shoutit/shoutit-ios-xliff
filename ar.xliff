@@ -710,6 +710,10 @@
         <target>يرجى تقديم رسالة تبليغ</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Please select %@">
+        <source>Please select %@</source>
+        <note>Create Shout: choose filter: Action sheet title</note>
+      </trans-unit>
       <trans-unit id="Please select Category">
         <source>Please select Category</source>
         <target>يرجى إختيار تصنيف</target>
