@@ -1,1109 +1,892 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="shoutit-iphone/Application/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Application/Info.plist" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>2.0.1</source>
-        <target>2.0.1</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Application/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Application/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
       <trans-unit id=" Details">
         <source> Details</source>
-        <target> Details</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id=" Location">
         <source> Location</source>
-        <target> Location</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%%x Listened to you">
         <source>%%x Listened to you</source>
-        <target>%%x Listened to you</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%%x: %%mm">
         <source>%%x: %%mm</source>
-        <target>%%x: %%mm</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ Admins">
         <source>%@ Admins</source>
-        <target>%@ Admins</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ Listeners">
         <source>%@ Listeners</source>
-        <target>%@ Listeners</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ Pages">
         <source>%@ Pages</source>
-        <target>%@ Pages</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ Shouts">
         <source>%@ Shouts</source>
-        <target>%@ Shouts</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%d Shouts">
         <source>%d Shouts</source>
-        <target>%d Shouts</target>
         <note>Search results count string</note>
       </trans-unit>
       <trans-unit id="(location.city), (location.country)">
         <source>(location.city), (location.country)</source>
-        <target>(location.city), (location.country)</target>
         <note>Shout detail location string</note>
       </trans-unit>
       <trans-unit id="+99">
         <source>+99</source>
-        <target>+99</target>
         <note>More than 99 Notifications</note>
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
-        <target>About</target>
         <note>About screen title
    Settings cell title</note>
       </trans-unit>
       <trans-unit id="Account">
         <source>Account</source>
-        <target>Account</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="All Categories">
         <source>All Categories</source>
-        <target>All Categories</target>
         <note>Default category - filter button title</note>
       </trans-unit>
       <trans-unit id="Are you sure?">
         <source>Are you sure?</source>
-        <target>Are you sure?</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Attachment">
         <source>Attachment</source>
-        <target>Attachment</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Auto">
         <source>Auto</source>
-        <target>Auto</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Automatically Location Updates">
         <source>Automatically Location Updates</source>
-        <target>Automatically Location Updates</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Bio">
         <source>Bio</source>
-        <target>Bio</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="Bio has too many characters">
         <source>Bio has too many characters</source>
-        <target>Bio has too many characters</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Browse">
         <source>Browse</source>
-        <target>Browse</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="By Proceeding you also agree to Shoutit’s Terms of Service and Privacy Policy.">
         <source>By Proceeding you also agree to Shoutit’s Terms of Service and Privacy Policy.</source>
-        <target>By Proceeding you also agree to Shoutit’s Terms of Service and Privacy Policy.</target>
         <note>Signup screen terms and policy message message</note>
       </trans-unit>
       <trans-unit id="CLEAR">
         <source>CLEAR</source>
-        <target>CLEAR</target>
         <note>recent searches clear button title</note>
       </trans-unit>
       <trans-unit id="Call">
         <source>Call</source>
-        <target>Call</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>Cancel</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Categorie">
         <source>Categorie</source>
-        <target>Categorie</target>
         <note>Shout details</note>
       </trans-unit>
       <trans-unit id="Categories">
         <source>Categories</source>
-        <target>Categories</target>
         <note>Main search screen categories header</note>
       </trans-unit>
       <trans-unit id="Categories unavailable">
         <source>Categories unavailable</source>
-        <target>Categories unavailable</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Categories unavilable">
         <source>Categories unavilable</source>
-        <target>Categories unavilable</target>
         <note>Post signup 1 placeholder</note>
       </trans-unit>
       <trans-unit id="Category">
         <source>Category</source>
-        <target>Category</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Change email">
         <source>Change email</source>
-        <target>Change email</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Change password">
         <source>Change password</source>
-        <target>Change password</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Chat">
         <source>Chat</source>
-        <target>Chat</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Chats">
         <source>Chats</source>
-        <target>Chats</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Choose location">
         <source>Choose location</source>
-        <target>Choose location</target>
         <note>Displayed on filter button when no location is chosen</note>
       </trans-unit>
       <trans-unit id="Confirmation">
         <source>Confirmation</source>
-        <target>Confirmation</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Content unavailable">
         <source>Content unavailable</source>
-        <target>Content unavailable</target>
         <note>Default table view placeholder</note>
       </trans-unit>
       <trans-unit id="Could not establish connection right now.">
         <source>Could not establish connection right now.</source>
-        <target>Could not establish connection right now.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Could not get your data">
         <source>Could not get your data</source>
-        <target>Could not get your data</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Could not load photos">
         <source>Could not load photos</source>
-        <target>Could not load photos</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Could not send message">
         <source>Could not send message</source>
-        <target>Could not send message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Could not send your location right now.">
         <source>Could not send your location right now.</source>
-        <target>Could not send your location right now.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Could not subscribe to channel. Wrong Channel Name">
         <source>Could not subscribe to channel. Wrong Channel Name</source>
-        <target>Could not subscribe to channel. Wrong Channel Name</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Create Offer">
         <source>Create Offer</source>
-        <target>Create Offer</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Create Page">
         <source>Create Page</source>
-        <target>Create Page</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Create Request">
         <source>Create Request</source>
-        <target>Create Request</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Create another Offer">
         <source>Create another Offer</source>
-        <target>Create another Offer</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Create another Request">
         <source>Create another Request</source>
-        <target>Create another Request</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Currency">
         <source>Currency</source>
-        <target>Currency</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Current Password">
         <source>Current Password</source>
-        <target>Current Password</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Current location:">
         <source>Current location:</source>
-        <target>Current location:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Date">
         <source>Date</source>
-        <target>Date</target>
         <note>Shout details</note>
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <target>Delete</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Delete Conversation">
         <source>Delete Conversation</source>
-        <target>Delete Conversation</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Delivered">
         <source>Delivered</source>
-        <target>Delivered</target>
         <note>Delivered</note>
       </trans-unit>
       <trans-unit id="Description">
         <source>Description</source>
-        <target>Description</target>
         <note>Description cell placeholder text
    Shout details</note>
       </trans-unit>
       <trans-unit id="Details">
         <source>Details</source>
-        <target>Details</target>
         <note>Shout details</note>
       </trans-unit>
       <trans-unit id="Discover">
         <source>Discover</source>
-        <target>Discover</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Discover Shouts">
         <source>Discover Shouts</source>
-        <target>Discover Shouts</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to delete this conversation">
         <source>Do you want to delete this conversation</source>
-        <target>Do you want to delete this conversation</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to delete this shout?">
         <source>Do you want to delete this shout?</source>
-        <target>Do you want to delete this shout?</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to send selected picture?">
         <source>Do you want to send selected picture?</source>
-        <target>Do you want to send selected picture?</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to send selected shout?">
         <source>Do you want to send selected shout?</source>
-        <target>Do you want to send selected shout?</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to send selected video?">
         <source>Do you want to send selected video?</source>
-        <target>Do you want to send selected video?</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to send your location?">
         <source>Do you want to send your location?</source>
-        <target>Do you want to send your location?</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Don't be so shy. Say something.">
         <source>Don't be so shy. Say something.</source>
-        <target>Don't be so shy. Say something.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
-        <target>Done</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Edit">
         <source>Edit</source>
-        <target>Edit</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Edit Offer">
         <source>Edit Offer</source>
-        <target>Edit Offer</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Edit Request">
         <source>Edit Request</source>
-        <target>Edit Request</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Email">
         <source>Email</source>
-        <target>Email</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="EnterValidMail">
         <source>EnterValidMail</source>
-        <target>EnterValidMail</target>
         <note>Enter valid email.</note>
       </trans-unit>
       <trans-unit id="EnterValidMailOrUsername">
         <source>EnterValidMailOrUsername</source>
-        <target>EnterValidMailOrUsername</target>
         <note>Enter valid email / username</note>
       </trans-unit>
       <trans-unit id="Entire country">
         <source>Entire country</source>
-        <target>Entire country</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="FREE">
         <source>FREE</source>
-        <target>FREE</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Failed">
         <source>Failed</source>
-        <target>Failed</target>
         <note>Failed</note>
       </trans-unit>
       <trans-unit id="Fields must not be empty">
         <source>Fields must not be empty</source>
-        <target>Fields must not be empty</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="First name">
         <source>First name</source>
-        <target>First name</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="FirstNameValidationError">
         <source>FirstNameValidationError</source>
-        <target>FirstNameValidationError</target>
         <note>Enter valid first name.</note>
       </trans-unit>
       <trans-unit id="Guest">
         <source>Guest</source>
-        <target>Guest</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Have an account? Log in">
         <source>Have an account? Log in</source>
-        <target>Have an account? Log in</target>
         <note>Signup view</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
-        <target>Help</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Home">
         <source>Home</source>
-        <target>Home</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Image">
         <source>Image</source>
-        <target>Image</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Incoming Call">
         <source>Incoming Call</source>
-        <target>Incoming Call</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Incoming Call from ">
         <source>Incoming Call from </source>
-        <target>Incoming Call from </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Interests">
         <source>Interests</source>
-        <target>Interests</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Invite Friends">
         <source>Invite Friends</source>
-        <target>Invite Friends</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Joined">
         <source>Joined</source>
-        <target>Joined</target>
         <note>User profile date foined cell
    User profile date joined cell</note>
       </trans-unit>
       <trans-unit id="K">
         <source>K</source>
-        <target>K</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last name">
         <source>Last name</source>
-        <target>Last name</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="LastNameValidationError">
         <source>LastNameValidationError</source>
-        <target>LastNameValidationError</target>
         <note>Enter valid last name.</note>
       </trans-unit>
       <trans-unit id="Legal">
         <source>Legal</source>
-        <target>Legal</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Listen">
         <source>Listen</source>
-        <target>Listen</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Listeners">
         <source>Listeners</source>
-        <target>Listeners</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Listening">
         <source>Listening</source>
-        <target>Listening</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Loading Messages...">
         <source>Loading Messages...</source>
-        <target>Loading Messages...</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Location">
         <source>Location</source>
-        <target>Location</target>
         <note>Edit profile placeholder text
    Shout detail</note>
       </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
-        <target>Log in</target>
         <note>Signup view. Should be the same as whole text's part</note>
       </trans-unit>
       <trans-unit id="Log out">
         <source>Log out</source>
-        <target>Log out</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="M">
         <source>M</source>
-        <target>M</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Mark all as read">
         <source>Mark all as read</source>
-        <target>Mark all as read</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Mobile">
         <source>Mobile</source>
-        <target>Mobile</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="More">
         <source>More</source>
-        <target>More</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="More shouts from %@">
         <source>More shouts from %@</source>
-        <target>More shouts from %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="My Pages">
         <source>My Pages</source>
-        <target>My Pages</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="My Shouts">
         <source>My Shouts</source>
-        <target>My Shouts</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Name">
         <source>Name</source>
-        <target>Name</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="New Password">
         <source>New Password</source>
-        <target>New Password</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="New email">
         <source>New email</source>
-        <target>New email</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="New to Shoutit? Sign up">
         <source>New to Shoutit? Sign up</source>
-        <target>New to Shoutit? Sign up</target>
         <note>Signup view</note>
       </trans-unit>
       <trans-unit id="Next">
         <source>Next</source>
-        <target>Next</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No Messages to show">
         <source>No Messages to show</source>
-        <target>No Messages to show</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No categores are available">
         <source>No categores are available</source>
-        <target>No categores are available</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No content available yet">
         <source>No content available yet</source>
-        <target>No content available yet</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No conversations to show">
         <source>No conversations to show</source>
-        <target>No conversations to show</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No images are available">
         <source>No images are available</source>
-        <target>No images are available</target>
         <note>Message for shout with no images</note>
       </trans-unit>
       <trans-unit id="No more messages to show">
         <source>No more messages to show</source>
-        <target>No more messages to show</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No notifications to show">
         <source>No notifications to show</source>
-        <target>No notifications to show</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No pages available yet">
         <source>No pages available yet</source>
-        <target>No pages available yet</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No results were found">
         <source>No results were found</source>
-        <target>No results were found</target>
         <note>Empty search results placeholder</note>
       </trans-unit>
       <trans-unit id="No shouts are available">
         <source>No shouts are available</source>
-        <target>No shouts are available</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No shouts available yet">
         <source>No shouts available yet</source>
-        <target>No shouts available yet</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No users were found">
         <source>No users were found</source>
-        <target>No users were found</target>
         <note>User search empty message</note>
       </trans-unit>
       <trans-unit id="Notification">
         <source>Notification</source>
-        <target>Notification</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Notification Settings">
         <source>Notification Settings</source>
-        <target>Notification Settings</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
-        <target>OK</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Offer">
         <source>Offer</source>
-        <target>Offer</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Offers and Requests">
         <source>Offers and Requests</source>
-        <target>Offers and Requests</target>
         <note>Filter shout type</note>
       </trans-unit>
       <trans-unit id="Only Offers">
         <source>Only Offers</source>
-        <target>Only Offers</target>
         <note>Filter shout type</note>
       </trans-unit>
       <trans-unit id="Only Requests">
         <source>Only Requests</source>
-        <target>Only Requests</target>
         <note>Filter shout type</note>
       </trans-unit>
       <trans-unit id="Orders">
         <source>Orders</source>
-        <target>Orders</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
-        <target>Password</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="PasswordValidationError">
         <source>PasswordValidationError</source>
-        <target>PasswordValidationError</target>
         <note>Password characters limit should be between 6-20</note>
       </trans-unit>
       <trans-unit id="Pending">
         <source>Pending</source>
-        <target>Pending</target>
         <note>Pending</note>
       </trans-unit>
       <trans-unit id="Please enter report message">
         <source>Please enter report message</source>
-        <target>Please enter report message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please make sure that all media are uploaded before continuing">
         <source>Please make sure that all media are uploaded before continuing</source>
-        <target>Please make sure that all media are uploaded before continuing</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please make sure that your location services are enabled for Shoutit.">
         <source>Please make sure that your location services are enabled for Shoutit.</source>
-        <target>Please make sure that your location services are enabled for Shoutit.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please provide a report message">
         <source>Please provide a report message</source>
-        <target>Please provide a report message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please select Category">
         <source>Please select Category</source>
-        <target>Please select Category</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please select Currency">
         <source>Please select Currency</source>
-        <target>Please select Currency</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please select Type">
         <source>Please select Type</source>
-        <target>Please select Type</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please select category">
         <source>Please select category</source>
-        <target>Please select category</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please select sort type">
         <source>Please select sort type</source>
-        <target>Please select sort type</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please select type">
         <source>Please select type</source>
-        <target>Please select type</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please wait for upload to finish">
         <source>Please wait for upload to finish</source>
-        <target>Please wait for upload to finish</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <target>Privacy Policy</target>
         <note>Settings cell title
    Signup screen part of terms and condition message. Must match that in whole text</note>
       </trans-unit>
       <trans-unit id="Profile Reported Successfully">
         <source>Profile Reported Successfully</source>
-        <target>Profile Reported Successfully</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Recent searches">
         <source>Recent searches</source>
-        <target>Recent searches</target>
         <note>Recent searches header</note>
       </trans-unit>
       <trans-unit id="Related Interests">
         <source>Related Interests</source>
-        <target>Related Interests</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Related Shouts">
         <source>Related Shouts</source>
-        <target>Related Shouts</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Related shouts">
         <source>Related shouts</source>
-        <target>Related shouts</target>
         <note>Shout detail</note>
       </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
-        <target>Remove</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Remove Currency">
         <source>Remove Currency</source>
-        <target>Remove Currency</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Report Profile">
         <source>Report Profile</source>
-        <target>Report Profile</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Report Shout">
         <source>Report Shout</source>
-        <target>Report Shout</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Request">
         <source>Request</source>
-        <target>Request</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Results">
         <source>Results</source>
-        <target>Results</target>
         <note>Search results section header</note>
       </trans-unit>
       <trans-unit id="Results for '%@'">
         <source>Results for '%@'</source>
-        <target>Results for '%@'</target>
         <note>Search results for search phrase section header</note>
       </trans-unit>
       <trans-unit id="Search Shoutit">
         <source>Search Shoutit</source>
-        <target>Search Shoutit</target>
         <note>Search text field placeholder</note>
       </trans-unit>
       <trans-unit id="Search Users">
         <source>Search Users</source>
-        <target>Search Users</target>
         <note>Search users placeholder</note>
       </trans-unit>
       <trans-unit id="Search in %@ shouts">
         <source>Search in %@ shouts</source>
-        <target>Search in %@ shouts</target>
         <note>Search text field placeholder</note>
       </trans-unit>
       <trans-unit id="See All Shouts">
         <source>See All Shouts</source>
-        <target>See All Shouts</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Select Shout">
         <source>Select Shout</source>
-        <target>Select Shout</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Send">
         <source>Send</source>
-        <target>Send</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Send Attachment">
         <source>Send Attachment</source>
-        <target>Send Attachment</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sending message">
         <source>Sending message</source>
-        <target>Sending message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sends you message">
         <source>Sends you message</source>
-        <target>Sends you message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sent">
         <source>Sent</source>
-        <target>Sent</target>
         <note>Sent</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
-        <target>Settings</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Shout">
         <source>Shout</source>
-        <target>Shout</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Shout Reported Successfully">
         <source>Shout Reported Successfully</source>
-        <target>Shout Reported Successfully</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Shout deleted Successfully">
         <source>Shout deleted Successfully</source>
-        <target>Shout deleted Successfully</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Shouts">
         <source>Shouts</source>
-        <target>Shouts</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Shouts in %@">
         <source>Shouts in %@</source>
-        <target>Shouts in %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sign up">
         <source>Sign up</source>
-        <target>Sign up</target>
         <note>Signup view. Should be the same as whole text's part</note>
       </trans-unit>
       <trans-unit id="Someone">
         <source>Someone</source>
-        <target>Someone</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sort By">
         <source>Sort By</source>
-        <target>Sort By</target>
         <note>Sort type button title label</note>
       </trans-unit>
       <trans-unit id="Stop Listening">
         <source>Stop Listening</source>
-        <target>Stop Listening</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Suggested Pages">
         <source>Suggested Pages</source>
-        <target>Suggested Pages</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Suggested Users">
         <source>Suggested Users</source>
-        <target>Suggested Users</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Tap to load archive messages">
         <source>Tap to load archive messages</source>
-        <target>Tap to load archive messages</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Terms of Service">
         <source>Terms of Service</source>
-        <target>Terms of Service</target>
         <note>Settings cell title
    Signup screen part of terms and condition message. Must match that in whole text</note>
       </trans-unit>
       <trans-unit id="The maximum length of the video is 60 seconds. Choose a shorter movie.">
         <source>The maximum length of the video is 60 seconds. Choose a shorter movie.</source>
-        <target>The maximum length of the video is 60 seconds. Choose a shorter movie.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn Off">
         <source>Turn Off</source>
-        <target>Turn Off</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn On">
         <source>Turn On</source>
-        <target>Turn On</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Type">
         <source>Type</source>
-        <target>Type</target>
         <note>Shout type button title label</note>
       </trans-unit>
       <trans-unit id="Type a message">
         <source>Type a message</source>
-        <target>Type a message</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Unknown Location">
         <source>Unknown Location</source>
-        <target>Unknown Location</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Unsupported Title">
         <source>Unsupported Title</source>
-        <target>Unsupported Title</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
-        <target>Username</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="Verify New Password">
         <source>Verify New Password</source>
-        <target>Verify New Password</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Video">
         <source>Video</source>
-        <target>Video</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Video call">
         <source>Video call</source>
-        <target>Video call</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Video is too long">
         <source>Video is too long</source>
-        <target>Video is too long</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="View Profile">
         <source>View Profile</source>
-        <target>View Profile</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Visit %@'s profile">
         <source>Visit %@'s profile</source>
-        <target>Visit %@'s profile</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Website">
         <source>Website</source>
-        <target>Website</target>
         <note>Edit profile placeholder text</note>
       </trans-unit>
       <trans-unit id="Yes, Delete Shout">
         <source>Yes, Delete Shout</source>
-        <target>Yes, Delete Shout</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You">
         <source>You</source>
-        <target>You</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You are not able to call this user">
         <source>You are not able to call this user</source>
-        <target>You are not able to call this user</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You can only start a chat with your listeners">
         <source>You can only start a chat with your listeners</source>
-        <target>You can only start a chat with your listeners</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You can start new conversation in shout details or user profile.">
         <source>You can start new conversation in shout details or user profile.</source>
-        <target>You can start new conversation in shout details or user profile.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You can't chat with yourself">
         <source>You can't chat with yourself</source>
-        <target>You can't chat with yourself</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You have successfully started listening to %@">
         <source>You have successfully started listening to %@</source>
-        <target>You have successfully started listening to %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You have successfully stopped listening to %@">
         <source>You have successfully stopped listening to %@</source>
-        <target>You have successfully stopped listening to %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="You must be logged in to perform this action">
         <source>You must be logged in to perform this action</source>
-        <target>You must be logged in to perform this action</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your account has been successfully verified">
         <source>Your account has been successfully verified</source>
-        <target>Your account has been successfully verified</target>
         <note>Verify email user message</note>
       </trans-unit>
       <trans-unit id="Your account isn't verified yet">
         <source>Your account isn't verified yet</source>
-        <target>Your account isn't verified yet</target>
         <note>Verify email failed user message</note>
       </trans-unit>
       <trans-unit id="Your location will be updated automatically">
         <source>Your location will be updated automatically</source>
-        <target>Your location will be updated automatically</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your offer &quot;%@&quot; will appear on Shoutit soon.">
         <source>Your offer "%@" will appear on Shoutit soon.</source>
-        <target>Your offer "%@" will appear on Shoutit soon.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your offer will appear on Shoutit soon.">
         <source>Your offer will appear on Shoutit soon.</source>
-        <target>Your offer will appear on Shoutit soon.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your request &quot;%@&quot; will appear on Shoutit soon.">
         <source>Your request "%@" will appear on Shoutit soon.</source>
-        <target>Your request "%@" will appear on Shoutit soon.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your request will appear on Shoutit soon.">
         <source>Your request will appear on Shoutit soon.</source>
-        <target>Your request will appear on Shoutit soon.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="shouter">
         <source>shouter</source>
-        <target>shouter</target>
         <note>Displayed on shout detail screen if user's firstname would be null</note>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/CameraStoryboard.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/CameraStoryboard.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1160,7 +943,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Chats.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/Chats.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1242,7 +1025,6 @@
       </trans-unit>
       <trans-unit id="pcT-Tt-k2b.text">
         <source>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "pcT-Tt-k2b";</note>
       </trans-unit>
       <trans-unit id="rdm-hj-mhG.title">
@@ -1252,7 +1034,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Discover.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/Discover.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1260,8 +1042,6 @@
       <trans-unit id="1zO-PU-axo.text">
         <source>Merino Wool Slouchy Hat, Winter 
 Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "1zO-PU-axo";</note>
       </trans-unit>
       <trans-unit id="C39-Cu-yZU.text">
@@ -1272,8 +1052,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="DFH-Ro-KZo.text">
         <source>Merino Wool Slouchy Hat, Winter 
 Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "DFH-Ro-KZo";</note>
       </trans-unit>
       <trans-unit id="HG0-FE-ywc.text">
@@ -1293,7 +1071,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="XR2-l8-Hdh.text">
         <source>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "XR2-l8-Hdh";</note>
       </trans-unit>
       <trans-unit id="Yu8-ve-3cT.text">
@@ -1309,8 +1086,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="eMu-SA-8L3.text">
         <source>Merino Wool Slouchy Hat, Winter 
 Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "eMu-SA-8L3";</note>
       </trans-unit>
       <trans-unit id="jMN-dN-Vu2.text">
@@ -1335,7 +1110,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/LoginStoryboard.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/LoginStoryboard.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1352,7 +1127,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="2sy-bq-ms4.text">
         <source>Search</source>
-        <target>Search</target>
         <note>Class = "UILabel"; text = "Search"; ObjectID = "2sy-bq-ms4";</note>
       </trans-unit>
       <trans-unit id="7eJ-mp-XEv.normalTitle">
@@ -1362,7 +1136,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="14e-Rq-a3Y.text">
         <source>List anything for FREE. Include Photos and Videos to appeal to Buyers.</source>
-        <target>List anything for FREE. Include Photos and Videos to appeal to Buyers.</target>
         <note>Class = "UILabel"; text = "List anything for FREE. Include Photos and Videos to appeal to Buyers."; ObjectID = "14e-Rq-a3Y";</note>
       </trans-unit>
       <trans-unit id="A0X-MT-0sG.text">
@@ -1405,7 +1178,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="Gv6-Vf-08z.text">
         <source>Welcome to Shoutit</source>
-        <target>Welcome to Shoutit</target>
         <note>Class = "UILabel"; text = "Welcome to Shoutit"; ObjectID = "Gv6-Vf-08z";</note>
       </trans-unit>
       <trans-unit id="HYX-k8-0GR.title">
@@ -1415,7 +1187,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="KGf-9Z-ybk.text">
         <source>Connect with Buyers and Sellers. Send Photos, Videos and Shouts.</source>
-        <target>Connect with Buyers and Sellers. Send Photos, Videos and Shouts.</target>
         <note>Class = "UILabel"; text = "Connect with Buyers and Sellers. Send Photos, Videos and Shouts."; ObjectID = "KGf-9Z-ybk";</note>
       </trans-unit>
       <trans-unit id="L2w-j2-mMw.normalTitle">
@@ -1463,22 +1234,18 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="Rwd-Tt-HmF.text">
         <source>Find what you need in your Community or anywhere in the World.</source>
-        <target>Find what you need in your Community or anywhere in the World.</target>
         <note>Class = "UILabel"; text = "Find what you need in your Community or anywhere in the World."; ObjectID = "Rwd-Tt-HmF";</note>
       </trans-unit>
       <trans-unit id="Soz-bA-Q3z.text">
         <source>Buy and Sell while Chatting</source>
-        <target>Buy and Sell while Chatting</target>
         <note>Class = "UILabel"; text = "Buy and Sell while Chatting"; ObjectID = "Soz-bA-Q3z";</note>
       </trans-unit>
       <trans-unit id="V9W-3j-fHJ.text">
         <source>Video is worth a thousand pictures! see what you want to buy live before buying it.</source>
-        <target>Video is worth a thousand pictures! see what you want to buy live before buying it.</target>
         <note>Class = "UILabel"; text = "Video is worth a thousand pictures! see what you want to buy live before buying it."; ObjectID = "V9W-3j-fHJ";</note>
       </trans-unit>
       <trans-unit id="VwE-WR-Gmn.text">
         <source>Log in with Facebook</source>
-        <target>Log in with Facebook</target>
         <note>Class = "UILabel"; text = "Log in with Facebook"; ObjectID = "VwE-WR-Gmn";</note>
       </trans-unit>
       <trans-unit id="Wji-o7-jPI.title">
@@ -1535,7 +1302,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="ff2-Jg-zkJ.text">
         <source>Log in with Google</source>
-        <target>Log in with Google</target>
         <note>Class = "UILabel"; text = "Log in with Google"; ObjectID = "ff2-Jg-zkJ";</note>
       </trans-unit>
       <trans-unit id="fg0-TH-CXc.text">
@@ -1563,7 +1329,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="l8Q-QA-1Iv.text">
         <source>Sign up / Log in with Email</source>
-        <target>Sign up / Log in with Email</target>
         <note>Class = "UILabel"; text = "Sign up / Log in with Email"; ObjectID = "l8Q-QA-1Iv";</note>
       </trans-unit>
       <trans-unit id="mgc-hU-1eG.normalTitle">
@@ -1573,7 +1338,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="o79-CH-fAu.text">
         <source>Video Chat</source>
-        <target>Video Chat</target>
         <note>Class = "UILabel"; text = "Video Chat"; ObjectID = "o79-CH-fAu";</note>
       </trans-unit>
       <trans-unit id="otB-pC-3lO.text">
@@ -1609,7 +1373,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="tJ8-OD-CZp.text">
         <source>Shout</source>
-        <target>Shout</target>
         <note>Class = "UILabel"; text = "Shout"; ObjectID = "tJ8-OD-CZp";</note>
       </trans-unit>
       <trans-unit id="tVc-LS-ZZw.normalTitle">
@@ -1624,7 +1387,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="w16-Jq-7nF.text">
         <source>Chat</source>
-        <target>Chat</target>
         <note>Class = "UILabel"; text = "Chat"; ObjectID = "w16-Jq-7nF";</note>
       </trans-unit>
       <trans-unit id="x1k-1E-QQr.normalTitle">
@@ -1634,13 +1396,13 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Profile.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/Profile.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body/>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Settings.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/Settings.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1667,7 +1429,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Localization/Base.lproj/Shout.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Localization/Base.lproj/Shout.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1822,7 +1584,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/EditProfile.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/EditProfile.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1854,7 +1616,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Filter.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Filter.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1961,13 +1723,13 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/HTML.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/HTML.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body/>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Home.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Home.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -1975,8 +1737,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="5LU-gw-tJA.text">
         <source>Merino Wool Slouchy Hat, Winter 
 Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter 
-Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "5LU-gw-tJA";</note>
       </trans-unit>
       <trans-unit id="9fl-Jy-3uV.title">
@@ -2036,7 +1796,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="fIE-Gj-UPD.text">
         <source>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</source>
-        <target>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "fIE-Gj-UPD";</note>
       </trans-unit>
       <trans-unit id="g4b-PM-Eek.text">
@@ -2051,7 +1810,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/InviteFriends.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/InviteFriends.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2063,7 +1822,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Location.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Location.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2104,7 +1863,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Menu.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Menu.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2140,7 +1899,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="uFf-Pq-9uJ.text">
         <source>Create Shout</source>
-        <target>Create Shout</target>
         <note>Class = "UILabel"; text = "Create Shout"; ObjectID = "uFf-Pq-9uJ";</note>
       </trans-unit>
       <trans-unit id="ys9-SK-6FT.text">
@@ -2150,7 +1908,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Notifications.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Notifications.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2172,7 +1930,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/PlaceholderCollectionViewCell.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/PlaceholderCollectionViewCell.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2184,7 +1942,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsSectionHeader.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsSectionHeader.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2196,7 +1954,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsTableViewCell.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/PostSignupSuggestionsTableViewCell.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2213,7 +1971,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionFooterButtonSupplementeryView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionFooterButtonSupplementeryView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2225,7 +1983,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionInfoSupplementaryView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/ProfileCollectionInfoSupplementaryView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2272,7 +2030,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Root.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Root.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2304,7 +2062,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/Search.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/Search.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2341,7 +2099,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchCategoriesHeaderView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchCategoriesHeaderView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2353,7 +2111,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchRecentsHeaderView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SearchRecentsHeaderView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2370,7 +2128,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllCollectionViewCell.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllCollectionViewCell.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2382,7 +2140,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllShouts.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/SeeAllShouts.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2394,7 +2152,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/ShoutDetail.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/ShoutDetail.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2491,7 +2249,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/TableViewPlaceholderView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/TableViewPlaceholderView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2503,7 +2261,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/VerifyEmail.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/VerifyEmail.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2545,7 +2303,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/Storyboards/Base.lproj/VideoCalls.storyboard" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/Storyboards/Base.lproj/VideoCalls.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2587,122 +2345,122 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/UVResources/en.lproj/UserVoice.strings" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/UVResources/en.lproj/UserVoice.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
       <trans-unit id="%@ (required)">
         <source>%@ (required)</source>
-        <target>%@ (required)</target>
+        <target>%@ (benötigt)</target>
       </trans-unit>
       <trans-unit id="%@ ideas">
         <source>%@ ideas</source>
-        <target>%@ ideas</target>
+        <target>%@ Ideen</target>
       </trans-unit>
       <trans-unit id="%d people">
         <source>%d people</source>
-        <target>%d people</target>
+        <target>%d Personen</target>
       </trans-unit>
       <trans-unit id="(none)">
         <source>(none)</source>
-        <target>(none)</target>
+        <target>(keine)</target>
       </trans-unit>
       <trans-unit id="(required)">
         <source>(required)</source>
-        <target>(required)</target>
+        <target>(erforderlich)</target>
       </trans-unit>
       <trans-unit id="1 idea">
         <source>1 idea</source>
-        <target>1 idea</target>
+        <target>1 Idee</target>
       </trans-unit>
       <trans-unit id="1 person">
         <source>1 person</source>
-        <target>1 person</target>
+        <target>1 Person</target>
       </trans-unit>
       <trans-unit id="A suggestion with this title already exists. Please change the title.">
         <source>A suggestion with this title already exists. Please change the title.</source>
-        <target>A suggestion with this title already exists. Please change the title.</target>
+        <target>Es ist bereits ein Vorschlag mit diesem Titel vorhanden. Bitte ändern Sie den Titel.</target>
       </trans-unit>
       <trans-unit id="Add a comment">
         <source>Add a comment</source>
-        <target>Add a comment</target>
+        <target>Kommentar hinzufügen</target>
       </trans-unit>
       <trans-unit id="Additional Details">
         <source>Additional Details</source>
-        <target>Additional Details</target>
+        <target>Details</target>
       </trans-unit>
       <trans-unit id="All">
         <source>All</source>
-        <target>All</target>
+        <target>Alle</target>
       </trans-unit>
       <trans-unit id="All Articles">
         <source>All Articles</source>
-        <target>All Articles</target>
+        <target>Alle Artikel</target>
       </trans-unit>
       <trans-unit id="Are any of these helpful?">
         <source>Are any of these helpful?</source>
-        <target>Are any of these helpful?</target>
+        <target>Sind hilfreiche Einträge dabei?</target>
       </trans-unit>
       <trans-unit id="Articles">
         <source>Articles</source>
-        <target>Articles</target>
+        <target>Artikel</target>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
-        <target>Back</target>
+        <target>Zurück</target>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>Cancel</target>
+        <target>Abbrechen</target>
       </trans-unit>
       <trans-unit id="Category">
         <source>Category</source>
-        <target>Category</target>
+        <target>Kategorie</target>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
-        <target>Close</target>
+        <target>Schließen</target>
       </trans-unit>
       <trans-unit id="Comment">
         <source>Comment</source>
-        <target>Comment</target>
+        <target>Kommentieren</target>
       </trans-unit>
       <trans-unit id="Description (optional)">
         <source>Description (optional)</source>
-        <target>Description (optional)</target>
+        <target>Beschreibung (optional)</target>
       </trans-unit>
       <trans-unit id="Do you still want to contact us?">
         <source>Do you still want to contact us?</source>
-        <target>Do you still want to contact us?</target>
+        <target>Möchten Sie uns noch kontaktieren?</target>
       </trans-unit>
       <trans-unit id="Do you still want to post your own idea?">
         <source>Do you still want to post your own idea?</source>
-        <target>Do you still want to post your own idea?</target>
+        <target>Möchten Sie trotzdem Ihre eigene Idee veröffentlichen?</target>
       </trans-unit>
       <trans-unit id="Don't save">
         <source>Don't save</source>
-        <target>Don't save</target>
+        <target>Nicht speichern</target>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
-        <target>Done</target>
+        <target>Fertig</target>
       </trans-unit>
       <trans-unit id="Email">
         <source>Email</source>
-        <target>Email</target>
+        <target>E-Mail</target>
       </trans-unit>
       <trans-unit id="Enter UserVoice password for %@">
         <source>Enter UserVoice password for %@</source>
-        <target>Enter UserVoice password for %@</target>
+        <target>UserVoice-Passwort eingeben für %@</target>
       </trans-unit>
       <trans-unit id="Enter your email">
         <source>Enter your email</source>
-        <target>Enter your email</target>
+        <target>E-Mail eingeben</target>
       </trans-unit>
       <trans-unit id="Error">
         <source>Error</source>
-        <target>Error</target>
+        <target>Fehler</target>
       </trans-unit>
       <trans-unit id="Feedback">
         <source>Feedback</source>
@@ -2714,51 +2472,51 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="Feedback Forum">
         <source>Feedback Forum</source>
-        <target>Feedback Forum</target>
+        <target>Feedback-Forum</target>
       </trans-unit>
       <trans-unit id="Forgot password">
         <source>Forgot password</source>
-        <target>Forgot password</target>
+        <target>Passwort vergessen</target>
       </trans-unit>
       <trans-unit id="Give feedback or ask for help...">
         <source>Give feedback or ask for help...</source>
-        <target>Give feedback or ask for help...</target>
+        <target>Feedback abgeben oder um Hilfe bitten...</target>
       </trans-unit>
       <trans-unit id="Great! Glad we could help.">
         <source>Great! Glad we could help.</source>
-        <target>Great! Glad we could help.</target>
+        <target>Großartig! Schön, dass wir helfen konnten.</target>
       </trans-unit>
       <trans-unit id="I want this">
         <source>I want this</source>
-        <target>I want this</target>
+        <target>Ich will das</target>
       </trans-unit>
       <trans-unit id="I want this!">
         <source>I want this!</source>
-        <target>I want this!</target>
+        <target>Ich will das!</target>
       </trans-unit>
       <trans-unit id="Ideas">
         <source>Ideas</source>
-        <target>Ideas</target>
+        <target>Ideen</target>
       </trans-unit>
       <trans-unit id="Knowledge Base">
         <source>Knowledge Base</source>
-        <target>Knowledge Base</target>
+        <target>Wissensdatenbank</target>
       </trans-unit>
       <trans-unit id="Knowledge base">
         <source>Knowledge base</source>
-        <target>Knowledge base</target>
+        <target>Wissensdatenbank</target>
       </trans-unit>
       <trans-unit id="Load more">
         <source>Load more</source>
-        <target>Load more</target>
+        <target>Mehr laden</target>
       </trans-unit>
       <trans-unit id="Loading...">
         <source>Loading...</source>
-        <target>Loading...</target>
+        <target>Laden...</target>
       </trans-unit>
       <trans-unit id="Message sent!">
         <source>Message sent!</source>
-        <target>Message sent!</target>
+        <target>Nachricht gesendet!</target>
       </trans-unit>
       <trans-unit id="Name">
         <source>Name</source>
@@ -2766,15 +2524,15 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="Next">
         <source>Next</source>
-        <target>Next</target>
+        <target>Weiter</target>
       </trans-unit>
       <trans-unit id="No">
         <source>No</source>
-        <target>No</target>
+        <target>Nein</target>
       </trans-unit>
       <trans-unit id="No, I'm done">
         <source>No, I'm done</source>
-        <target>No, I'm done</target>
+        <target>Nein, ich bin fertig.</target>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
@@ -2782,35 +2540,35 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="Password reset email sent to %@">
         <source>Password reset email sent to %@</source>
-        <target>Password reset email sent to %@</target>
+        <target>E-Mail zum zurücksetzen des Passworts gesendet an %@</target>
       </trans-unit>
       <trans-unit id="Please enter a valid email address.">
         <source>Please enter a valid email address.</source>
-        <target>Please enter a valid email address.</target>
+        <target>Bitte geben Sie eine gültige E-Mail-Adresse ein.</target>
       </trans-unit>
       <trans-unit id="Please enter some text before submitting your comment.">
         <source>Please enter some text before submitting your comment.</source>
-        <target>Please enter some text before submitting your comment.</target>
+        <target>Bitte geben Sie etwas ein, bevor Sie den Kommentar absenden.</target>
       </trans-unit>
       <trans-unit id="Please enter your email address before submitting your comment.">
         <source>Please enter your email address before submitting your comment.</source>
-        <target>Please enter your email address before submitting your comment.</target>
+        <target>Bitte geben Sie Ihre E-Mail Adresse ein, bevor Sie Ihren Kommentar absenden.</target>
       </trans-unit>
       <trans-unit id="Please enter your email address before submitting your ticket.">
         <source>Please enter your email address before submitting your ticket.</source>
-        <target>Please enter your email address before submitting your ticket.</target>
+        <target>Bitte geben Sie Ihre E-Mail Adresse ein, bevor Sie Ihr Ticket absenden.</target>
       </trans-unit>
       <trans-unit id="Please fill out all required fields.">
         <source>Please fill out all required fields.</source>
-        <target>Please fill out all required fields.</target>
+        <target>Bitte füllen sie alle Pflichtfelder aus.</target>
       </trans-unit>
       <trans-unit id="Post">
         <source>Post</source>
-        <target>Post</target>
+        <target>Veröffentlichen</target>
       </trans-unit>
       <trans-unit id="Post an idea">
         <source>Post an idea</source>
-        <target>Post an idea</target>
+        <target>Idee veröffentlichen</target>
       </trans-unit>
       <trans-unit id="Powered by UserVoice">
         <source>Powered by UserVoice</source>
@@ -2818,147 +2576,147 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
       <trans-unit id="Ranked %@">
         <source>Ranked %@</source>
-        <target>Ranked %@</target>
+        <target>Rang %@</target>
       </trans-unit>
       <trans-unit id="Related articles">
         <source>Related articles</source>
-        <target>Related articles</target>
+        <target>Ähnliche Artikel</target>
       </trans-unit>
       <trans-unit id="Related feedback">
         <source>Related feedback</source>
-        <target>Related feedback</target>
+        <target>Ähnliches Feedback</target>
       </trans-unit>
       <trans-unit id="Save draft">
         <source>Save draft</source>
-        <target>Save draft</target>
+        <target>Entwurf speichern</target>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
-        <target>Search</target>
+        <target>Suchen</target>
       </trans-unit>
       <trans-unit id="Search forum">
         <source>Search forum</source>
-        <target>Search forum</target>
+        <target>Forum durchsuchen</target>
       </trans-unit>
       <trans-unit id="Send">
         <source>Send</source>
-        <target>Send</target>
+        <target>Senden</target>
       </trans-unit>
       <trans-unit id="Send us a message">
         <source>Send us a message</source>
-        <target>Send us a message</target>
+        <target>Senden Sie uns eine Nachricht</target>
       </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
-        <target>Sign in</target>
+        <target>Anmelden</target>
       </trans-unit>
       <trans-unit id="Skip">
         <source>Skip</source>
-        <target>Skip</target>
+        <target>Überspringen</target>
       </trans-unit>
       <trans-unit id="Sorry, there was an error in the application.">
         <source>Sorry, there was an error in the application.</source>
-        <target>Sorry, there was an error in the application.</target>
+        <target>In der Anwendung trat leider ein Fehler auf.</target>
       </trans-unit>
       <trans-unit id="Thank you!">
         <source>Thank you!</source>
-        <target>Thank you!</target>
+        <target>Vielen Dank!</target>
       </trans-unit>
       <trans-unit id="There appears to be a problem with your network connection, please check your connectivity and try again.">
         <source>There appears to be a problem with your network connection, please check your connectivity and try again.</source>
-        <target>There appears to be a problem with your network connection, please check your connectivity and try again.</target>
+        <target>Es gibt anscheinend ein Problem mit Ihrer Netzwerkverbindung. Bitte prüfen Sie die Verbindung und versuchen Sie es erneut.</target>
       </trans-unit>
       <trans-unit id="There was a problem logging you in.">
         <source>There was a problem logging you in.</source>
-        <target>There was a problem logging you in.</target>
+        <target>Es gab ein Problem bei der Anmeldung.</target>
       </trans-unit>
       <trans-unit id="This application didn't configure UserVoice properly">
         <source>This application didn't configure UserVoice properly</source>
-        <target>This application didn't configure UserVoice properly</target>
+        <target>UserVoice ist in dieser Anwendung nicht richtig konfiguriert.</target>
       </trans-unit>
       <trans-unit id="Title">
         <source>Title</source>
-        <target>Title</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="Try again">
         <source>Try again</source>
-        <target>Try again</target>
+        <target>Erneut versuchen</target>
       </trans-unit>
       <trans-unit id="User name">
         <source>User name</source>
-        <target>User name</target>
+        <target>Benutzername</target>
       </trans-unit>
       <trans-unit id="View idea">
         <source>View idea</source>
-        <target>View idea</target>
+        <target>Idee anzeigen</target>
       </trans-unit>
       <trans-unit id="Was this article helpful?">
         <source>Was this article helpful?</source>
-        <target>Was this article helpful?</target>
+        <target>War dieser Artikel hilfreich?</target>
       </trans-unit>
       <trans-unit id="We'll be in touch.">
         <source>We'll be in touch.</source>
-        <target>We'll be in touch.</target>
+        <target>Sie hören von uns.</target>
       </trans-unit>
       <trans-unit id="When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified.">
         <source>When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified.</source>
-        <target>When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified.</target>
+        <target>Wenn Sie eine Idee in unserem Forum veröffentlichen, können andere Ihre Idee abonnieren und kommentieren. Wenn wir auf Ihre Idee antworten, werden Sie benachrichtigt.</target>
       </trans-unit>
       <trans-unit id="Would you like to contact us?">
         <source>Would you like to contact us?</source>
-        <target>Would you like to contact us?</target>
+        <target>Möchten Sie uns kontaktieren?</target>
       </trans-unit>
       <trans-unit id="Write a comment...">
         <source>Write a comment...</source>
-        <target>Write a comment...</target>
+        <target>Kommentar schreiben...</target>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
-        <target>Yes</target>
+        <target>Ja</target>
       </trans-unit>
       <trans-unit id="Yes!">
         <source>Yes!</source>
-        <target>Yes!</target>
+        <target>Ja!</target>
       </trans-unit>
       <trans-unit id="Yes, I want to post my idea">
         <source>Yes, I want to post my idea</source>
-        <target>Yes, I want to post my idea</target>
+        <target>Ja, ich möchte meine Idee veröffentlichen</target>
       </trans-unit>
       <trans-unit id="Yes, go to my message">
         <source>Yes, go to my message</source>
-        <target>Yes, go to my message</target>
+        <target>Ja, zu meiner Nachricht</target>
       </trans-unit>
       <trans-unit id="Your feedback has been posted to our feedback forum.">
         <source>Your feedback has been posted to our feedback forum.</source>
-        <target>Your feedback has been posted to our feedback forum.</target>
+        <target>Ihr Feedback wurde in unserem Feedback Forum veröffentlicht.</target>
       </trans-unit>
       <trans-unit id="enter value">
         <source>enter value</source>
-        <target>enter value</target>
+        <target>Wert eingeben</target>
       </trans-unit>
       <trans-unit id="more">
         <source>more</source>
-        <target>more</target>
+        <target>mehr</target>
       </trans-unit>
       <trans-unit id="select">
         <source>select</source>
-        <target>select</target>
+        <target>wählen</target>
       </trans-unit>
       <trans-unit id="this">
         <source>this</source>
-        <target>this</target>
+        <target>diese</target>
       </trans-unit>
       <trans-unit id="this idea">
         <source>this idea</source>
-        <target>this idea</target>
+        <target>diese Idee</target>
       </trans-unit>
       <trans-unit id="“Anonymous”">
         <source>“Anonymous”</source>
-        <target>“Anonymous”</target>
+        <target>"Anonym"</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/ConversationLoadMoreFooter.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/View/Base.lproj/ConversationLoadMoreFooter.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2970,7 +2728,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/DiscoverHeaderView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/View/Base.lproj/DiscoverHeaderView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2982,7 +2740,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutFooterView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutFooterView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -2994,7 +2752,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutsHeaderView.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/View/Base.lproj/DiscoverShoutsHeaderView.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -3006,7 +2764,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/IncomingLocationCell.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/View/Base.lproj/IncomingLocationCell.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -3023,7 +2781,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphone/View/Base.lproj/OutgoingLocationCell.xib" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphone/View/Base.lproj/OutgoingLocationCell.xib" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
@@ -3040,155 +2798,128 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphoneTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphoneTests/Info.plist" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphoneTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphoneTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
       <trans-unit id="About">
         <source>About</source>
-        <target>About</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Account">
         <source>Account</source>
-        <target>Account</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Auto">
         <source>Auto</source>
-        <target>Auto</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Automatically Location Updates">
         <source>Automatically Location Updates</source>
-        <target>Automatically Location Updates</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Browse">
         <source>Browse</source>
-        <target>Browse</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>Cancel</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Chats">
         <source>Chats</source>
-        <target>Chats</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Current location:">
         <source>Current location:</source>
-        <target>Current location:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Discover">
         <source>Discover</source>
-        <target>Discover</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Email">
         <source>Email</source>
-        <target>Email</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Guest">
         <source>Guest</source>
-        <target>Guest</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
-        <target>Help</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Home">
         <source>Home</source>
-        <target>Home</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Invite Friends">
         <source>Invite Friends</source>
-        <target>Invite Friends</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Log out">
         <source>Log out</source>
-        <target>Log out</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Notification">
         <source>Notification</source>
-        <target>Notification</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Orders">
         <source>Orders</source>
-        <target>Orders</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
-        <target>Password</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
-        <target>Settings</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn Off">
         <source>Turn Off</source>
-        <target>Turn Off</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn On">
         <source>Turn On</source>
-        <target>Turn On</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Unsupported Title">
         <source>Unsupported Title</source>
-        <target>Unsupported Title</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your location will be updated automatically">
         <source>Your location will be updated automatically</source>
-        <target>Your location will be updated automatically</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="shoutit-iphoneUITests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="shoutit-iphoneUITests/Info.plist" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
