@@ -177,7 +177,7 @@
       </trans-unit>
       <trans-unit id="Chat">
         <source>Chat</source>
-        <target>المحادثة</target>
+        <target>محادثة</target>
         <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Chats">
@@ -463,6 +463,7 @@
       </trans-unit>
       <trans-unit id="K">
         <source>K</source>
+        <target>ألف</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last name">
@@ -518,6 +519,7 @@
       </trans-unit>
       <trans-unit id="M">
         <source>M</source>
+        <target>مليو</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Mark all as read">
@@ -712,6 +714,7 @@
       </trans-unit>
       <trans-unit id="Please select %@">
         <source>Please select %@</source>
+        <target>أختر %@</target>
         <note>Create Shout: choose filter: Action sheet title</note>
       </trans-unit>
       <trans-unit id="Please select Category">
@@ -1179,6 +1182,11 @@
         <target>المحادثات</target>
         <note>Class = "UINavigationItem"; title = "Chats"; ObjectID = "GZ0-mH-W33";</note>
       </trans-unit>
+      <trans-unit id="Guq-g6-Q7h.text">
+        <source>Video</source>
+        <target>فيديو</target>
+        <note>Class = "UILabel"; text = "Video"; ObjectID = "Guq-g6-Q7h";</note>
+      </trans-unit>
       <trans-unit id="OoV-dq-QkE.title">
         <source>Title</source>
         <target>العنوان</target>
@@ -1201,6 +1209,11 @@
         <source>Messages</source>
         <target>الرسائل</target>
         <note>Class = "UITabBarItem"; title = "Messages"; ObjectID = "YLA-6J-Q2l";</note>
+      </trans-unit>
+      <trans-unit id="aBY-UA-vJh.text">
+        <source>Shout</source>
+        <target>إعلان</target>
+        <note>Class = "UILabel"; text = "Shout"; ObjectID = "aBY-UA-vJh";</note>
       </trans-unit>
       <trans-unit id="c6b-2a-MEJ.text">
         <source>Offer</source>
@@ -1240,6 +1253,16 @@
         <source>Conversations</source>
         <target>المحادثات</target>
         <note>Class = "UITableViewController"; title = "Conversations"; ObjectID = "rdm-hj-mhG";</note>
+      </trans-unit>
+      <trans-unit id="smL-ce-TDc.text">
+        <source>Photo</source>
+        <target>صورة</target>
+        <note>Class = "UILabel"; text = "Photo"; ObjectID = "smL-ce-TDc";</note>
+      </trans-unit>
+      <trans-unit id="viM-Sc-CK6.text">
+        <source>Location</source>
+        <target>موقع</target>
+        <note>Class = "UILabel"; text = "Location"; ObjectID = "viM-Sc-CK6";</note>
       </trans-unit>
     </body>
   </file>
@@ -1330,6 +1353,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="2sy-bq-ms4.text">
         <source>Search</source>
+        <target>ابحث</target>
         <note>Class = "UILabel"; text = "Search"; ObjectID = "2sy-bq-ms4";</note>
       </trans-unit>
       <trans-unit id="7eJ-mp-XEv.normalTitle">
@@ -1339,6 +1363,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="14e-Rq-a3Y.text">
         <source>List anything for FREE. Include Photos and Videos to appeal to Buyers.</source>
+        <target>يمكنك وضع صور وفيديو في إعلاناتك.</target>
         <note>Class = "UILabel"; text = "List anything for FREE. Include Photos and Videos to appeal to Buyers."; ObjectID = "14e-Rq-a3Y";</note>
       </trans-unit>
       <trans-unit id="A0X-MT-0sG.text">
@@ -1381,6 +1406,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Gv6-Vf-08z.text">
         <source>Welcome to Shoutit</source>
+        <target>أهلاً بكم في شاوت ات</target>
         <note>Class = "UILabel"; text = "Welcome to Shoutit"; ObjectID = "Gv6-Vf-08z";</note>
       </trans-unit>
       <trans-unit id="HYX-k8-0GR.title">
@@ -1390,6 +1416,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="KGf-9Z-ybk.text">
         <source>Connect with Buyers and Sellers. Send Photos, Videos and Shouts.</source>
+        <target>راسل المعلنين بسهولة.\nأرسل صور و فيديو وإعلانات.</target>
         <note>Class = "UILabel"; text = "Connect with Buyers and Sellers. Send Photos, Videos and Shouts."; ObjectID = "KGf-9Z-ybk";</note>
       </trans-unit>
       <trans-unit id="L2w-j2-mMw.normalTitle">
@@ -1421,7 +1448,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="QGu-kD-nqv.normalTitle">
         <source>Skip</source>
-        <target>تخطي</target>
+        <target>تخطي التسجيل</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "QGu-kD-nqv";</note>
       </trans-unit>
       <trans-unit id="RaH-ti-Eac.placeholder">
@@ -1436,18 +1463,22 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="Rwd-Tt-HmF.text">
         <source>Find what you need in your Community or anywhere in the World.</source>
+        <target>ابحث عن كل شي تريده في منطقتك أو في أي مكان في العالم.</target>
         <note>Class = "UILabel"; text = "Find what you need in your Community or anywhere in the World."; ObjectID = "Rwd-Tt-HmF";</note>
       </trans-unit>
       <trans-unit id="Soz-bA-Q3z.text">
         <source>Buy and Sell while Chatting</source>
+        <target>بيع و اشتري وأنت تدردش!</target>
         <note>Class = "UILabel"; text = "Buy and Sell while Chatting"; ObjectID = "Soz-bA-Q3z";</note>
       </trans-unit>
       <trans-unit id="V9W-3j-fHJ.text">
         <source>Video is worth a thousand pictures! see what you want to buy live before buying it.</source>
+        <target>الفيديو معبر اكثر!\nاتصل مع المعلنين مباشرة من خلال خدمة الفيديو شات.</target>
         <note>Class = "UILabel"; text = "Video is worth a thousand pictures! see what you want to buy live before buying it."; ObjectID = "V9W-3j-fHJ";</note>
       </trans-unit>
       <trans-unit id="VwE-WR-Gmn.text">
         <source>Log in with Facebook</source>
+        <target>بواسطة فيس بوك</target>
         <note>Class = "UILabel"; text = "Log in with Facebook"; ObjectID = "VwE-WR-Gmn";</note>
       </trans-unit>
       <trans-unit id="Wji-o7-jPI.title">
@@ -1482,7 +1513,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="YRB-cn-kU9.normalTitle">
         <source>Skip</source>
-        <target>تخطي</target>
+        <target>تخطي التسجيل</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "YRB-cn-kU9";</note>
       </trans-unit>
       <trans-unit id="Zhq-6O-ODa.text">
@@ -1504,6 +1535,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="ff2-Jg-zkJ.text">
         <source>Log in with Google</source>
+        <target>بواسطة غوغل</target>
         <note>Class = "UILabel"; text = "Log in with Google"; ObjectID = "ff2-Jg-zkJ";</note>
       </trans-unit>
       <trans-unit id="fg0-TH-CXc.text">
@@ -1530,6 +1562,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="l8Q-QA-1Iv.text">
         <source>Sign up / Log in with Email</source>
+        <target>بواسطة البريد الإلكتروني</target>
         <note>Class = "UILabel"; text = "Sign up / Log in with Email"; ObjectID = "l8Q-QA-1Iv";</note>
       </trans-unit>
       <trans-unit id="mgc-hU-1eG.normalTitle">
@@ -1539,6 +1572,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="o79-CH-fAu.text">
         <source>Video Chat</source>
+        <target>تحدث صوت وصورة</target>
         <note>Class = "UILabel"; text = "Video Chat"; ObjectID = "o79-CH-fAu";</note>
       </trans-unit>
       <trans-unit id="otB-pC-3lO.text">
@@ -1574,11 +1608,12 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="tJ8-OD-CZp.text">
         <source>Shout</source>
+        <target>أعلن مجانا</target>
         <note>Class = "UILabel"; text = "Shout"; ObjectID = "tJ8-OD-CZp";</note>
       </trans-unit>
       <trans-unit id="tVc-LS-ZZw.normalTitle">
         <source>Skip</source>
-        <target>تخطي</target>
+        <target>تخطي التسجيل</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "tVc-LS-ZZw";</note>
       </trans-unit>
       <trans-unit id="vhV-ST-5zt.text">
@@ -1587,6 +1622,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="w16-Jq-7nF.text">
         <source>Chat</source>
+        <target>دردش</target>
         <note>Class = "UILabel"; text = "Chat"; ObjectID = "w16-Jq-7nF";</note>
       </trans-unit>
       <trans-unit id="x1k-1E-QQr.normalTitle">
@@ -1651,7 +1687,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="7Ws-Aq-gda.text">
         <source>Add photos and videos</source>
-        <target>اضف صور وفيديو</target>
+        <target>أضف صور وفيديو</target>
         <note>Class = "UILabel"; text = "Add photos and videos"; ObjectID = "7Ws-Aq-gda";</note>
       </trans-unit>
       <trans-unit id="ArL-Gz-lqw.normalTitle">
@@ -2084,6 +2120,7 @@ Hat, Chunky Textured Knit Hat and more text</source>
       </trans-unit>
       <trans-unit id="uFf-Pq-9uJ.text">
         <source>Create Shout</source>
+        <target>إنشاء إعلان</target>
         <note>Class = "UILabel"; text = "Create Shout"; ObjectID = "uFf-Pq-9uJ";</note>
       </trans-unit>
       <trans-unit id="ys9-SK-6FT.text">
@@ -2486,6 +2523,11 @@ Hat, Chunky Textured Knit Hat and more text</source>
         <target>إلغاء</target>
         <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "6ax-sw-xDW";</note>
       </trans-unit>
+      <trans-unit id="I74-IB-ecl.text">
+        <source>Discard</source>
+        <target>رفض</target>
+        <note>Class = "UILabel"; text = "Discard"; ObjectID = "I74-IB-ecl";</note>
+      </trans-unit>
       <trans-unit id="IHn-L1-0lT.text">
         <source>Connecting</source>
         <target>يتصل</target>
@@ -2494,12 +2536,16 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="Imm-ov-Sdy.normalTitle">
         <source>Discard</source>
         <target>رفض</target>
-        <note>Class = "UIButton"; normalTitle = "Discard"; ObjectID = "Imm-ov-Sdy";</note>
       </trans-unit>
       <trans-unit id="Otg-mn-IP0.text">
         <source>Incoming call from XX</source>
         <target>مكالمة واردة من XX</target>
         <note>Class = "UILabel"; text = "Incoming call from XX"; ObjectID = "Otg-mn-IP0";</note>
+      </trans-unit>
+      <trans-unit id="Y8C-qw-JQt.text">
+        <source>Answer</source>
+        <target>اجابة</target>
+        <note>Class = "UILabel"; text = "Answer"; ObjectID = "Y8C-qw-JQt";</note>
       </trans-unit>
       <trans-unit id="wAE-6B-zom.text">
         <source>Calling</source>
@@ -2509,7 +2555,6 @@ Hat, Chunky Textured Knit Hat and more text</source>
       <trans-unit id="y6h-PZ-MHd.normalTitle">
         <source>Answer</source>
         <target>اجابة</target>
-        <note>Class = "UIButton"; normalTitle = "Answer"; ObjectID = "y6h-PZ-MHd";</note>
       </trans-unit>
     </body>
   </file>
@@ -3116,94 +3161,117 @@ Hat, Chunky Textured Knit Hat and more text</source>
     <body>
       <trans-unit id="About">
         <source>About</source>
+        <target>حول</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Account">
         <source>Account</source>
+        <target>الحساب</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Auto">
         <source>Auto</source>
+        <target>تلقائي</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Automatically Location Updates">
         <source>Automatically Location Updates</source>
+        <target>تحديث موقع تلقائي</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Browse">
         <source>Browse</source>
+        <target>إستعرض</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>إلغاء</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Chats">
         <source>Chats</source>
+        <target>المحادثات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Current location:">
         <source>Current location:</source>
+        <target>الموقع الحالي:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Discover">
         <source>Discover</source>
+        <target>إكتشف</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Email">
         <source>Email</source>
+        <target>البريد الإلكتروني</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Guest">
         <source>Guest</source>
+        <target>ضيف</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
+        <target>المساعدة</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Home">
         <source>Home</source>
+        <target>الرئيسية</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Invite Friends">
         <source>Invite Friends</source>
+        <target>دعوة الأصدقاء</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Log out">
         <source>Log out</source>
+        <target>تسجيل الخروج</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Notification">
         <source>Notification</source>
+        <target>الإشعارات</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Orders">
         <source>Orders</source>
+        <target>المشتريات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
+        <target>كلمة المرور</target>
         <note>Settings cell title</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
+        <target>الإعدادات</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn Off">
         <source>Turn Off</source>
+        <target>إطفاء</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn On">
         <source>Turn On</source>
+        <target>تشغيل</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Unsupported Title">
         <source>Unsupported Title</source>
+        <target>العنوان غير معروف</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your location will be updated automatically">
         <source>Your location will be updated automatically</source>
+        <target>سيتم تحديد موقعك تلقائيا</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>

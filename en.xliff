@@ -1190,6 +1190,11 @@
         <target>Chats</target>
         <note>Class = "UINavigationItem"; title = "Chats"; ObjectID = "GZ0-mH-W33";</note>
       </trans-unit>
+      <trans-unit id="Guq-g6-Q7h.text">
+        <source>Video</source>
+        <target>Video</target>
+        <note>Class = "UILabel"; text = "Video"; ObjectID = "Guq-g6-Q7h";</note>
+      </trans-unit>
       <trans-unit id="OoV-dq-QkE.title">
         <source>Title</source>
         <target>Title</target>
@@ -1214,6 +1219,11 @@
         <source>Messages</source>
         <target>Messages</target>
         <note>Class = "UITabBarItem"; title = "Messages"; ObjectID = "YLA-6J-Q2l";</note>
+      </trans-unit>
+      <trans-unit id="aBY-UA-vJh.text">
+        <source>Shout</source>
+        <target>Shout</target>
+        <note>Class = "UILabel"; text = "Shout"; ObjectID = "aBY-UA-vJh";</note>
       </trans-unit>
       <trans-unit id="c6b-2a-MEJ.text">
         <source>Offer</source>
@@ -1254,6 +1264,16 @@
         <source>Conversations</source>
         <target>Conversations</target>
         <note>Class = "UITableViewController"; title = "Conversations"; ObjectID = "rdm-hj-mhG";</note>
+      </trans-unit>
+      <trans-unit id="smL-ce-TDc.text">
+        <source>Photo</source>
+        <target>Photo</target>
+        <note>Class = "UILabel"; text = "Photo"; ObjectID = "smL-ce-TDc";</note>
+      </trans-unit>
+      <trans-unit id="viM-Sc-CK6.text">
+        <source>Location</source>
+        <target>Location</target>
+        <note>Class = "UILabel"; text = "Location"; ObjectID = "viM-Sc-CK6";</note>
       </trans-unit>
     </body>
   </file>
@@ -2565,6 +2585,11 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <target>Cancel</target>
         <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "6ax-sw-xDW";</note>
       </trans-unit>
+      <trans-unit id="I74-IB-ecl.text">
+        <source>Discard</source>
+        <target>Discard</target>
+        <note>Class = "UILabel"; text = "Discard"; ObjectID = "I74-IB-ecl";</note>
+      </trans-unit>
       <trans-unit id="IHn-L1-0lT.text">
         <source>Connecting</source>
         <target>Connecting</target>
@@ -2573,12 +2598,16 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="Imm-ov-Sdy.normalTitle">
         <source>Discard</source>
         <target>Discard</target>
-        <note>Class = "UIButton"; normalTitle = "Discard"; ObjectID = "Imm-ov-Sdy";</note>
       </trans-unit>
       <trans-unit id="Otg-mn-IP0.text">
         <source>Incoming call from XX</source>
         <target>Incoming call from XX</target>
         <note>Class = "UILabel"; text = "Incoming call from XX"; ObjectID = "Otg-mn-IP0";</note>
+      </trans-unit>
+      <trans-unit id="Y8C-qw-JQt.text">
+        <source>Answer</source>
+        <target>Answer</target>
+        <note>Class = "UILabel"; text = "Answer"; ObjectID = "Y8C-qw-JQt";</note>
       </trans-unit>
       <trans-unit id="wAE-6B-zom.text">
         <source>Calling</source>
@@ -2588,7 +2617,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="y6h-PZ-MHd.normalTitle">
         <source>Answer</source>
         <target>Answer</target>
-        <note>Class = "UIButton"; normalTitle = "Answer"; ObjectID = "y6h-PZ-MHd";</note>
       </trans-unit>
     </body>
   </file>
