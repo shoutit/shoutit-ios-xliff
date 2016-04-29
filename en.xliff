@@ -78,7 +78,8 @@
       <trans-unit id="About">
         <source>About</source>
         <target>About</target>
-        <note>Settings cell title</note>
+        <note>About screen title
+   Settings cell title</note>
       </trans-unit>
       <trans-unit id="Account">
         <source>Account</source>
@@ -188,7 +189,7 @@
       <trans-unit id="Chats">
         <source>Chats</source>
         <target>Chats</target>
-        <note>No comment provided by engineer.</note>
+        <note>Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Choose location">
         <source>Choose location</source>
@@ -2640,6 +2641,128 @@ Hat, Chunky Textured Knit Hat and more text</target>
       </trans-unit>
     </body>
   </file>
+  <file original="shoutit-iphoneTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
+    </header>
+    <body>
+      <trans-unit id="About">
+        <source>About</source>
+        <target>About</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Account">
+        <source>Account</source>
+        <target>Account</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Auto">
+        <source>Auto</source>
+        <target>Auto</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Automatically Location Updates">
+        <source>Automatically Location Updates</source>
+        <target>Automatically Location Updates</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Browse">
+        <source>Browse</source>
+        <target>Browse</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Chats">
+        <source>Chats</source>
+        <target>Chats</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Current location:">
+        <source>Current location:</source>
+        <target>Current location:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Discover">
+        <source>Discover</source>
+        <target>Discover</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Email">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Guest">
+        <source>Guest</source>
+        <target>Guest</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Help">
+        <source>Help</source>
+        <target>Help</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Home">
+        <source>Home</source>
+        <target>Home</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invite Friends">
+        <source>Invite Friends</source>
+        <target>Invite Friends</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Log out">
+        <source>Log out</source>
+        <target>Log out</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Notification">
+        <source>Notification</source>
+        <target>Notification</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Orders">
+        <source>Orders</source>
+        <target>Orders</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <target>Password</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <target>Settings</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Turn Off">
+        <source>Turn Off</source>
+        <target>Turn Off</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <target>Turn On</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unsupported Title">
+        <source>Unsupported Title</source>
+        <target>Unsupported Title</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your location will be updated automatically">
+        <source>Your location will be updated automatically</source>
+        <target>Your location will be updated automatically</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="shoutit-iphoneUITests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
@@ -2652,6 +2775,128 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
         <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="shoutit-iphoneUITests/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
+    </header>
+    <body>
+      <trans-unit id="About">
+        <source>About</source>
+        <target>About</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Account">
+        <source>Account</source>
+        <target>Account</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Auto">
+        <source>Auto</source>
+        <target>Auto</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Automatically Location Updates">
+        <source>Automatically Location Updates</source>
+        <target>Automatically Location Updates</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Browse">
+        <source>Browse</source>
+        <target>Browse</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Chats">
+        <source>Chats</source>
+        <target>Chats</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Current location:">
+        <source>Current location:</source>
+        <target>Current location:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Discover">
+        <source>Discover</source>
+        <target>Discover</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Email">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Guest">
+        <source>Guest</source>
+        <target>Guest</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Help">
+        <source>Help</source>
+        <target>Help</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Home">
+        <source>Home</source>
+        <target>Home</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invite Friends">
+        <source>Invite Friends</source>
+        <target>Invite Friends</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Log out">
+        <source>Log out</source>
+        <target>Log out</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Notification">
+        <source>Notification</source>
+        <target>Notification</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Orders">
+        <source>Orders</source>
+        <target>Orders</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <target>Password</target>
+        <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <target>Settings</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Turn Off">
+        <source>Turn Off</source>
+        <target>Turn Off</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <target>Turn On</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unsupported Title">
+        <source>Unsupported Title</source>
+        <target>Unsupported Title</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your location will be updated automatically">
+        <source>Your location will be updated automatically</source>
+        <target>Your location will be updated automatically</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
