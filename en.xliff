@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>2.0.2</source>
-        <target>2.0.2</target>
+        <source>2.0.3</source>
+        <target>2.0.3</target>
       </trans-unit>
     </body>
   </file>
