@@ -1031,11 +1031,6 @@
         <target>You</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="You are not able to call this user">
-        <source>You are not able to call this user</source>
-        <target>You are not able to call this user</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="You can only start a chat with your listeners">
         <source>You can only start a chat with your listeners</source>
         <target>You can only start a chat with your listeners</target>

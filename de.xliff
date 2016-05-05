@@ -828,10 +828,6 @@
         <source>You</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="You are not able to call this user">
-        <source>You are not able to call this user</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="You can only start a chat with your listeners">
         <source>You can only start a chat with your listeners</source>
         <note>No comment provided by engineer.</note>
