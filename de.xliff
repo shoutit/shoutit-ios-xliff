@@ -9,7 +9,7 @@
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>2.0.3</source>
+        <source>2.0.4</source>
       </trans-unit>
     </body>
   </file>
