@@ -26,14 +26,6 @@
         <source> Location</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="%%x Listened to you">
-        <source>%%x Listened to you</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="%%x: %%mm">
-        <source>%%x: %%mm</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="%@ Admins">
         <source>%@ Admins</source>
         <note>No comment provided by engineer.</note>
@@ -58,9 +50,25 @@
         <source>(location.city), (location.country)</source>
         <note>Shout detail location string</note>
       </trans-unit>
+      <trans-unit id="(profileName) can now administrate this chat">
+        <source>(profileName) can now administrate this chat</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(self.conversation.blocked.count)">
+        <source>(self.conversation.blocked.count)</source>
+        <note>Blocked Users count</note>
+      </trans-unit>
+      <trans-unit id="(self.conversation.users?.count ?? 0)">
+        <source>(self.conversation.users?.count ?? 0)</source>
+        <note>Participants count</note>
+      </trans-unit>
       <trans-unit id="+99">
         <source>+99</source>
         <note>More than 99 Notifications</note>
+      </trans-unit>
+      <trans-unit id="ATTACHMENTS">
+        <source>ATTACHMENTS</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
@@ -71,9 +79,25 @@
         <source>Account</source>
         <note>Settings cell title</note>
       </trans-unit>
+      <trans-unit id="Add %d Photos">
+        <source>Add %d Photos</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add Member">
+        <source>Add Member</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Administrator">
+        <source>Administrator</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="All Categories">
         <source>All Categories</source>
         <note>Default category - filter button title</note>
+      </trans-unit>
+      <trans-unit id="Already a member">
+        <source>Already a member</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Are you sure?">
         <source>Are you sure?</source>
@@ -97,6 +121,14 @@
       </trans-unit>
       <trans-unit id="Bio has too many characters">
         <source>Bio has too many characters</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Block">
+        <source>Block</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Blocked">
+        <source>Blocked</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Browse">
@@ -151,6 +183,15 @@
         <source>Chat</source>
         <note>Shout detail tab bar item</note>
       </trans-unit>
+      <trans-unit id="Chat created by (name)\nCreated on (createdDateString)">
+        <source>Chat created by (name)
+Created on (createdDateString)</source>
+        <note>Chat Info Bottom Description</note>
+      </trans-unit>
+      <trans-unit id="Chat created by Shoutit">
+        <source>Chat created by Shoutit</source>
+        <note>Chat Info Bottom Description</note>
+      </trans-unit>
       <trans-unit id="Chats">
         <source>Chats</source>
         <note>Shout detail tab bar item</note>
@@ -166,6 +207,18 @@
       <trans-unit id="Content unavailable">
         <source>Content unavailable</source>
         <note>Default table view placeholder</note>
+      </trans-unit>
+      <trans-unit id="Conversation Deleted succesfully">
+        <source>Conversation Deleted succesfully</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Conversation Shouts">
+        <source>Conversation Shouts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Conversation reported succesfully">
+        <source>Conversation reported succesfully</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Could not establish connection right now.">
         <source>Could not establish connection right now.</source>
@@ -235,10 +288,6 @@
         <source>Delete Conversation</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Delivered">
-        <source>Delivered</source>
-        <note>Delivered</note>
-      </trans-unit>
       <trans-unit id="Description">
         <source>Description</source>
         <note>Description cell placeholder text
@@ -266,6 +315,10 @@
       </trans-unit>
       <trans-unit id="Do you want to send selected picture?">
         <source>Do you want to send selected picture?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to send selected profile?">
+        <source>Do you want to send selected profile?</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to send selected shout?">
@@ -316,13 +369,17 @@
         <source>Entire country</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Exit Chat">
+        <source>Exit Chat</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="FREE">
         <source>FREE</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Failed">
-        <source>Failed</source>
-        <note>Failed</note>
+      <trans-unit id="Facebook">
+        <source>Facebook</source>
+        <note>Create public chat cell title</note>
       </trans-unit>
       <trans-unit id="Fields must not be empty">
         <source>Fields must not be empty</source>
@@ -381,6 +438,10 @@
         <source>K</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="LOCATION">
+        <source>LOCATION</source>
+        <note>Create public chat section title</note>
+      </trans-unit>
       <trans-unit id="Last name">
         <source>Last name</source>
         <note>Edit profile placeholder text</note>
@@ -426,8 +487,20 @@
         <source>M</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="MEMBERS">
+        <source>MEMBERS</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Manage User">
+        <source>Manage User</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Mark all as read">
         <source>Mark all as read</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Media">
+        <source>Media</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Mobile">
@@ -550,6 +623,10 @@
         <source>Orders</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Participants">
+        <source>Participants</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
         <note>Settings cell title</note>
@@ -558,9 +635,13 @@
         <source>PasswordValidationError</source>
         <note>Password characters limit should be between 6-20</note>
       </trans-unit>
-      <trans-unit id="Pending">
-        <source>Pending</source>
-        <note>Pending</note>
+      <trans-unit id="Photo Library">
+        <source>Photo Library</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please enter chat subject">
+        <source>Please enter chat subject</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Please enter report message">
         <source>Please enter report message</source>
@@ -615,8 +696,16 @@
         <note>Settings cell title
    Signup screen part of terms and condition message. Must match that in whole text</note>
       </trans-unit>
+      <trans-unit id="Profile">
+        <source>Profile</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Profile Reported Successfully">
         <source>Profile Reported Successfully</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Promote to admin">
+        <source>Promote to admin</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Recent searches">
@@ -643,6 +732,10 @@
         <source>Remove Currency</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Report Chat">
+        <source>Report Chat</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Report Profile">
         <source>Report Profile</source>
         <note>No comment provided by engineer.</note>
@@ -662,6 +755,10 @@
       <trans-unit id="Results for '%@'">
         <source>Results for '%@'</source>
         <note>Search results for search phrase section header</note>
+      </trans-unit>
+      <trans-unit id="SHARING">
+        <source>SHARING</source>
+        <note>Create public chat section title</note>
       </trans-unit>
       <trans-unit id="Search Shoutit">
         <source>Search Shoutit</source>
@@ -695,14 +792,6 @@
         <source>Sending message</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Sends you message">
-        <source>Sends you message</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Sent">
-        <source>Sent</source>
-        <note>Sent</note>
-      </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
         <note>No comment provided by engineer.</note>
@@ -731,10 +820,6 @@
         <source>Sign up</source>
         <note>Signup view. Should be the same as whole text's part</note>
       </trans-unit>
-      <trans-unit id="Someone">
-        <source>Someone</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Sort By">
         <source>Sort By</source>
         <note>Sort type button title label</note>
@@ -749,6 +834,22 @@
       </trans-unit>
       <trans-unit id="Suggested Users">
         <source>Suggested Users</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Take Photo">
+        <source>Take Photo</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Take Photo or Video">
+        <source>Take Photo or Video</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Take Video">
+        <source>Take Video</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Tap to add to chat">
+        <source>Tap to add to chat</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Tap to load archive messages">
@@ -772,12 +873,20 @@
         <source>Turn On</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Twitter">
+        <source>Twitter</source>
+        <note>Create public chat cell title</note>
+      </trans-unit>
       <trans-unit id="Type">
         <source>Type</source>
         <note>Shout type button title label</note>
       </trans-unit>
       <trans-unit id="Type a message">
         <source>Type a message</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unblock">
+        <source>Unblock</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Unknown Location">
@@ -808,10 +917,6 @@
         <source>Video is too long</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="View Profile">
-        <source>View Profile</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Visit %@'s profile">
         <source>Visit %@'s profile</source>
         <note>No comment provided by engineer.</note>
@@ -824,9 +929,9 @@
         <source>Yes, Delete Shout</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="You">
-        <source>You</source>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="You are not allowed to do this action">
+        <source>You are not allowed to do this action</source>
+        <note>Chat Info actions message</note>
       </trans-unit>
       <trans-unit id="You can only start a chat with your listeners">
         <source>You can only start a chat with your listeners</source>
@@ -850,6 +955,22 @@
       </trans-unit>
       <trans-unit id="You must be logged in to perform this action">
         <source>You must be logged in to perform this action</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You've successfully added (profileName) to chat.">
+        <source>You've successfully added (profileName) to chat.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You've successfully blocked (profileName)">
+        <source>You've successfully blocked (profileName)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You've successfully removed (profileName) from chat.">
+        <source>You've successfully removed (profileName) from chat.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You've successfully unblocked (profileName)">
+        <source>You've successfully unblocked (profileName)</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your account has been successfully verified">
@@ -883,6 +1004,17 @@
       <trans-unit id="shouter">
         <source>shouter</source>
         <note>Displayed on shout detail screen if user's firstname would be null</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="shoutit-iphone/Application/Nemo.strings" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
+    </header>
+    <body>
+      <trans-unit id="Add %d Photos">
+        <source>Add %d Photos</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
@@ -958,10 +1090,22 @@
         <target>Participants</target>
         <note>Class = "UILabel"; text = "Participants"; ObjectID = "7lD-XO-jLv";</note>
       </trans-unit>
+      <trans-unit id="D53-mI-0We.text">
+        <source>Public chats are country based conversations that every one can join and post what he is selling or buying. </source>
+        <note>Class = "UILabel"; text = "Public chats are country based conversations that every one can join and post what he is selling or buying. "; ObjectID = "D53-mI-0We";</note>
+      </trans-unit>
+      <trans-unit id="E9i-u2-qRC.title">
+        <source>Chat Info</source>
+        <note>Class = "UITableViewController"; title = "Chat Info"; ObjectID = "E9i-u2-qRC";</note>
+      </trans-unit>
       <trans-unit id="Ejl-rm-dWM.text">
         <source>Message Preview</source>
         <target>Message Preview</target>
         <note>Class = "UILabel"; text = "Message Preview"; ObjectID = "Ejl-rm-dWM";</note>
+      </trans-unit>
+      <trans-unit id="FGH-Jc-OeH.normalTitle">
+        <source>Create</source>
+        <note>Class = "UIButton"; normalTitle = "Create"; ObjectID = "FGH-Jc-OeH";</note>
       </trans-unit>
       <trans-unit id="GZ0-mH-W33.title">
         <source>Chats</source>
@@ -969,19 +1113,42 @@
         <note>Class = "UINavigationItem"; title = "Chats"; ObjectID = "GZ0-mH-W33";</note>
       </trans-unit>
       <trans-unit id="Guq-g6-Q7h.text">
-        <source>Video</source>
-        <target>Video</target>
-        <note>Class = "UILabel"; text = "Video"; ObjectID = "Guq-g6-Q7h";</note>
+        <source>Profile</source>
+        <target>Profile</target>
+        <note>Class = "UILabel"; text = "Profile"; ObjectID = "Guq-g6-Q7h";</note>
+      </trans-unit>
+      <trans-unit id="IF9-nC-Rc0.text">
+        <source>Clear Chat</source>
+        <note>Class = "UILabel"; text = "Clear Chat"; ObjectID = "IF9-nC-Rc0";</note>
+      </trans-unit>
+      <trans-unit id="IH5-vo-Oso.title">
+        <source>Title</source>
+        <note>Class = "UINavigationItem"; title = "Title"; ObjectID = "IH5-vo-Oso";</note>
+      </trans-unit>
+      <trans-unit id="LVe-er-fF2.text">
+        <source>Add Member</source>
+        <note>Class = "UILabel"; text = "Add Member"; ObjectID = "LVe-er-fF2";</note>
+      </trans-unit>
+      <trans-unit id="On7-Xd-FsK.placeholder">
+        <source>Subject</source>
+        <note>Class = "UITextField"; placeholder = "Subject"; ObjectID = "On7-Xd-FsK";</note>
       </trans-unit>
       <trans-unit id="OoV-dq-QkE.title">
         <source>Title</source>
         <target>Title</target>
-        <note>Class = "UINavigationItem"; title = "Title"; ObjectID = "OoV-dq-QkE";</note>
+      </trans-unit>
+      <trans-unit id="Ovn-5P-fJ1.normalTitle">
+        <source>Create Public Chat</source>
+        <note>Class = "UIButton"; normalTitle = "Create Public Chat"; ObjectID = "Ovn-5P-fJ1";</note>
       </trans-unit>
       <trans-unit id="QDG-Al-JRl.text">
         <source>John Smith</source>
         <target>John Smith</target>
         <note>Class = "UILabel"; text = "John Smith"; ObjectID = "QDG-Al-JRl";</note>
+      </trans-unit>
+      <trans-unit id="T6h-Jn-GTd.text">
+        <source>102</source>
+        <note>Class = "UILabel"; text = "102"; ObjectID = "T6h-Jn-GTd";</note>
       </trans-unit>
       <trans-unit id="Uyo-AD-bj5.text">
         <source>$44 USD</source>
@@ -993,15 +1160,38 @@
         <target>Message Preview</target>
         <note>Class = "UILabel"; text = "Message Preview"; ObjectID = "VO8-bv-QaH";</note>
       </trans-unit>
+      <trans-unit id="Wo3-D5-Gbv.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Wo3-D5-Gbv";</note>
+      </trans-unit>
+      <trans-unit id="XHs-Pt-tAO.placeholder">
+        <source>Subject</source>
+        <note>Class = "UITextField"; placeholder = "Subject"; ObjectID = "XHs-Pt-tAO";</note>
+      </trans-unit>
       <trans-unit id="YLA-6J-Q2l.title">
         <source>Messages</source>
         <target>Messages</target>
-        <note>Class = "UITabBarItem"; title = "Messages"; ObjectID = "YLA-6J-Q2l";</note>
       </trans-unit>
       <trans-unit id="aBY-UA-vJh.text">
         <source>Shout</source>
         <target>Shout</target>
         <note>Class = "UILabel"; text = "Shout"; ObjectID = "aBY-UA-vJh";</note>
+      </trans-unit>
+      <trans-unit id="aYa-u5-EZE.text">
+        <source>Shouts</source>
+        <note>Class = "UILabel"; text = "Shouts"; ObjectID = "aYa-u5-EZE";</note>
+      </trans-unit>
+      <trans-unit id="bjg-W9-2zR.title">
+        <source>Create Public Chat</source>
+        <note>Class = "UINavigationItem"; title = "Create Public Chat"; ObjectID = "bjg-W9-2zR";</note>
+      </trans-unit>
+      <trans-unit id="bzW-bZ-Uc4.segmentTitles[0]">
+        <source>My Chats</source>
+        <note>Class = "UISegmentedControl"; bzW-bZ-Uc4.segmentTitles[0] = "My Chats"; ObjectID = "bzW-bZ-Uc4";</note>
+      </trans-unit>
+      <trans-unit id="bzW-bZ-Uc4.segmentTitles[1]">
+        <source>Public Chats</source>
+        <note>Class = "UISegmentedControl"; bzW-bZ-Uc4.segmentTitles[1] = "Public Chats"; ObjectID = "bzW-bZ-Uc4";</note>
       </trans-unit>
       <trans-unit id="c6b-2a-MEJ.text">
         <source>Offer</source>
@@ -1017,6 +1207,10 @@
         <source>Participants</source>
         <target>Participants</target>
         <note>Class = "UILabel"; text = "Participants"; ObjectID = "fMa-98-BMN";</note>
+      </trans-unit>
+      <trans-unit id="fVO-lu-bIm.text">
+        <source>Chat created by XX</source>
+        <note>Class = "UILabel"; text = "Chat created by XX"; ObjectID = "fVO-lu-bIm";</note>
       </trans-unit>
       <trans-unit id="hWB-iW-Kpv.title">
         <source>Title</source>
@@ -1038,20 +1232,36 @@
         <target>Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text</target>
         <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter Hat, Chunky Textured Knit Hat and more text"; ObjectID = "pcT-Tt-k2b";</note>
       </trans-unit>
+      <trans-unit id="rBG-ve-pv0.text">
+        <source>Message Preview</source>
+        <note>Class = "UILabel"; text = "Message Preview"; ObjectID = "rBG-ve-pv0";</note>
+      </trans-unit>
       <trans-unit id="rdm-hj-mhG.title">
         <source>Conversations</source>
         <target>Conversations</target>
         <note>Class = "UITableViewController"; title = "Conversations"; ObjectID = "rdm-hj-mhG";</note>
       </trans-unit>
       <trans-unit id="smL-ce-TDc.text">
-        <source>Photo</source>
-        <target>Photo</target>
-        <note>Class = "UILabel"; text = "Photo"; ObjectID = "smL-ce-TDc";</note>
+        <source>Media</source>
+        <target>Media</target>
+        <note>Class = "UILabel"; text = "Media"; ObjectID = "smL-ce-TDc";</note>
       </trans-unit>
       <trans-unit id="viM-Sc-CK6.text">
         <source>Location</source>
         <target>Location</target>
         <note>Class = "UILabel"; text = "Location"; ObjectID = "viM-Sc-CK6";</note>
+      </trans-unit>
+      <trans-unit id="xSa-3B-FcT.title">
+        <source>Select Profile</source>
+        <note>Class = "UINavigationItem"; title = "Select Profile"; ObjectID = "xSa-3B-FcT";</note>
+      </trans-unit>
+      <trans-unit id="xdz-jg-dvB.segmentTitles[0]">
+        <source>Listening</source>
+        <note>Class = "UISegmentedControl"; xdz-jg-dvB.segmentTitles[0] = "Listening"; ObjectID = "xdz-jg-dvB";</note>
+      </trans-unit>
+      <trans-unit id="xdz-jg-dvB.segmentTitles[1]">
+        <source>Listeners</source>
+        <note>Class = "UISegmentedControl"; xdz-jg-dvB.segmentTitles[1] = "Listeners"; ObjectID = "xdz-jg-dvB";</note>
       </trans-unit>
     </body>
   </file>
@@ -1389,7 +1599,20 @@ Hat, Chunky Textured Knit Hat and more text</target>
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
-    <body/>
+    <body>
+      <trans-unit id="Cpe-Md-hiS.title">
+        <source>Listening</source>
+        <note>Class = "UINavigationItem"; title = "Listening"; ObjectID = "Cpe-Md-hiS";</note>
+      </trans-unit>
+      <trans-unit id="hHc-hP-Vp8.title">
+        <source>Interests</source>
+        <note>Class = "UINavigationItem"; title = "Interests"; ObjectID = "hHc-hP-Vp8";</note>
+      </trans-unit>
+      <trans-unit id="zSz-BR-UtJ.title">
+        <source>Listeners</source>
+        <note>Class = "UINavigationItem"; title = "Listeners"; ObjectID = "zSz-BR-UtJ";</note>
+      </trans-unit>
+    </body>
   </file>
   <file original="shoutit-iphone/Localization/Base.lproj/Settings.storyboard" source-language="en" datatype="plaintext" target-language="de">
     <header>
@@ -2235,6 +2458,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <source>Content unavailable</source>
         <target>Content unavailable</target>
         <note>Class = "UILabel"; text = "Content unavailable"; ObjectID = "fbK-dy-4cC";</note>
+      </trans-unit>
+      <trans-unit id="vw6-IN-qeM.text">
+        <source>Content unavailable</source>
+        <note>Class = "UILabel"; text = "Content unavailable"; ObjectID = "vw6-IN-qeM";</note>
       </trans-unit>
     </body>
   </file>
