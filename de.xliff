@@ -9,7 +9,7 @@
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>2.0.3</source>
+        <source>2.1.0</source>
       </trans-unit>
     </body>
   </file>
@@ -18,14 +18,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
-      <trans-unit id=" Details">
-        <source> Details</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id=" Location">
-        <source> Location</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="%@ Admins">
         <source>%@ Admins</source>
         <note>No comment provided by engineer.</note>
@@ -103,6 +95,10 @@
         <source>Are you sure?</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Are you sure? All Shout data will be lost.">
+        <source>Are you sure? All Shout data will be lost.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Attachment">
         <source>Attachment</source>
         <note>No comment provided by engineer.</note>
@@ -147,6 +143,14 @@
         <source>Call</source>
         <note>Shout detail tab bar item</note>
       </trans-unit>
+      <trans-unit id="Call Ended">
+        <source>Call Ended</source>
+        <note>Video call status message</note>
+      </trans-unit>
+      <trans-unit id="Call Failed">
+        <source>Call Failed</source>
+        <note>Video call status message</note>
+      </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <note>No comment provided by engineer.</note>
@@ -183,9 +187,9 @@
         <source>Chat</source>
         <note>Shout detail tab bar item</note>
       </trans-unit>
-      <trans-unit id="Chat created by (name)\nCreated on (createdDateString)">
-        <source>Chat created by (name)
-Created on (createdDateString)</source>
+      <trans-unit id="Chat created by %@\nCreated on %@">
+        <source>Chat created by %1$@
+Created on %2$@</source>
         <note>Chat Info Bottom Description</note>
       </trans-unit>
       <trans-unit id="Chat created by Shoutit">
@@ -200,13 +204,33 @@ Created on (createdDateString)</source>
         <source>Choose location</source>
         <note>Displayed on filter button when no location is chosen</note>
       </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Confirmation">
         <source>Confirmation</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Connecting with %@...">
+        <source>Connecting with %@...</source>
+        <note>Video call status message</note>
+      </trans-unit>
+      <trans-unit id="Connecting...">
+        <source>Connecting...</source>
+        <note>Video call status message</note>
+      </trans-unit>
+      <trans-unit id="Contacts Friends">
+        <source>Contacts Friends</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Content unavailable">
         <source>Content unavailable</source>
         <note>Default table view placeholder</note>
+      </trans-unit>
+      <trans-unit id="Conversation">
+        <source>Conversation</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Conversation Deleted succesfully">
         <source>Conversation Deleted succesfully</source>
@@ -276,6 +300,10 @@ Created on (createdDateString)</source>
         <source>Current location:</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="DETAILS">
+        <source>DETAILS</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Date">
         <source>Date</source>
         <note>Shout details</note>
@@ -303,6 +331,14 @@ Created on (createdDateString)</source>
       </trans-unit>
       <trans-unit id="Discover Shouts">
         <source>Discover Shouts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Do nothing">
+        <source>Do nothing</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to close?">
+        <source>Do you want to close?</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Do you want to delete this conversation">
@@ -379,10 +415,23 @@ Created on (createdDateString)</source>
       </trans-unit>
       <trans-unit id="Facebook">
         <source>Facebook</source>
-        <note>Create public chat cell title</note>
+        <note>Create public chat cell title
+   Facebook cell title on sharing options in create shout view</note>
+      </trans-unit>
+      <trans-unit id="Facebook Friends">
+        <source>Facebook Friends</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Failed to obtain facebook publish permissions">
+        <source>Failed to obtain facebook publish permissions</source>
+        <note>Returned when updating permissions scope fails on API side</note>
       </trans-unit>
       <trans-unit id="Fields must not be empty">
         <source>Fields must not be empty</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Find Friends">
+        <source>Find Friends</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="First name">
@@ -429,6 +478,10 @@ Created on (createdDateString)</source>
         <source>Invite Friends</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Join Shoutit on shoutit.com">
+        <source>Join Shoutit on shoutit.com</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Joined">
         <source>Joined</source>
         <note>User profile date foined cell
@@ -468,6 +521,10 @@ Created on (createdDateString)</source>
       </trans-unit>
       <trans-unit id="Loading Messages...">
         <source>Loading Messages...</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Loading suggestions">
+        <source>Loading suggestions</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Location">
@@ -708,6 +765,10 @@ Created on (createdDateString)</source>
         <source>Promote to admin</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Public Chats">
+        <source>Public Chats</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Recent searches">
         <source>Recent searches</source>
         <note>Recent searches header</note>
@@ -758,7 +819,12 @@ Created on (createdDateString)</source>
       </trans-unit>
       <trans-unit id="SHARING">
         <source>SHARING</source>
-        <note>Create public chat section title</note>
+        <note>Create public chat section title
+   Sharing section header on create shout</note>
+      </trans-unit>
+      <trans-unit id="SUGGESTED USERS">
+        <source>SUGGESTED USERS</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Search Shoutit">
         <source>Search Shoutit</source>
@@ -836,6 +902,10 @@ Created on (createdDateString)</source>
         <source>Suggested Users</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Suggestions">
+        <source>Suggestions</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Take Photo">
         <source>Take Photo</source>
         <note>No comment provided by engineer.</note>
@@ -863,6 +933,10 @@ Created on (createdDateString)</source>
       </trans-unit>
       <trans-unit id="The maximum length of the video is 60 seconds. Choose a shorter movie.">
         <source>The maximum length of the video is 60 seconds. Choose a shorter movie.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="There is no suggestions for you at the moment">
+        <source>There is no suggestions for you at the moment</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Turn Off">
@@ -913,12 +987,24 @@ Created on (createdDateString)</source>
         <source>Video call</source>
         <note>Shout detail tab bar item</note>
       </trans-unit>
+      <trans-unit id="Video call with %@">
+        <source>Video call with %@</source>
+        <note>Video call status message</note>
+      </trans-unit>
       <trans-unit id="Video is too long">
         <source>Video is too long</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Visit %@'s profile">
         <source>Visit %@'s profile</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="We can't access your contacts book. Please go to Settings and make sure that you grant access for Shoutit app.">
+        <source>We can't access your contacts book. Please go to Settings and make sure that you grant access for Shoutit app.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="We couldnt find any contacts in your address book">
+        <source>We couldnt find any contacts in your address book</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Website">
@@ -1646,6 +1732,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
+      <trans-unit id="1Jo-f6-Mqf.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "1Jo-f6-Mqf";</note>
+      </trans-unit>
       <trans-unit id="3WJ-yE-7d1.normalTitle">
         <source>Currency</source>
         <target>Currency</target>
@@ -1665,6 +1755,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <source>Add photos and videos</source>
         <target>Add photos and videos</target>
         <note>Class = "UILabel"; text = "Add photos and videos"; ObjectID = "7Ws-Aq-gda";</note>
+      </trans-unit>
+      <trans-unit id="8a7-SP-t4R.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "8a7-SP-t4R";</note>
       </trans-unit>
       <trans-unit id="ArL-Gz-lqw.normalTitle">
         <source>Offer</source>
@@ -1709,7 +1803,7 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="Qcg-aH-k2h.title">
         <source>Create Shout</source>
         <target>Create Shout</target>
-        <note>Class = "UINavigationItem"; title = "Create Shout"; ObjectID = "Qcg-aH-k2h";</note>
+        <note>Class = "UINavigationItem"; title = "Edit Shout"; ObjectID = "Qcg-aH-k2h";</note>
       </trans-unit>
       <trans-unit id="WZp-Em-qUh.placeholder">
         <source>Title</source>
@@ -1785,6 +1879,30 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <source>Location</source>
         <target>Location</target>
         <note>Class = "UIButton"; normalTitle = "Location"; ObjectID = "ygX-W4-fss";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="shoutit-iphone/Storyboards/Base.lproj/DiscoverPreview.storyboard" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
+    </header>
+    <body>
+      <trans-unit id="Wg4-zL-xAD.text">
+        <source>See All</source>
+        <target>See All</target>
+        <note>Class = "UILabel"; text = "See All"; ObjectID = "Wg4-zL-xAD";</note>
+      </trans-unit>
+      <trans-unit id="WkB-7m-dah.text">
+        <source>Discover</source>
+        <target>Discover</target>
+        <note>Class = "UILabel"; text = "Discover"; ObjectID = "WkB-7m-dah";</note>
+      </trans-unit>
+      <trans-unit id="tsE-nY-AhM.text">
+        <source>Merino Wool Slouchy Hat, Winter 
+Hat, Chunky Textured Knit Hat and more text</source>
+        <target>Merino Wool Slouchy Hat, Winter 
+Hat, Chunky Textured Knit Hat and more text</target>
+        <note>Class = "UILabel"; text = "Merino Wool Slouchy Hat, Winter \nHat, Chunky Textured Knit Hat and more text"; ObjectID = "tsE-nY-AhM";</note>
       </trans-unit>
     </body>
   </file>
@@ -2022,10 +2140,57 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
+      <trans-unit id="Fub-9R-HLo.text">
+        <source>Contacts</source>
+        <note>Class = "UILabel"; text = "Contacts"; ObjectID = "Fub-9R-HLo";</note>
+      </trans-unit>
+      <trans-unit id="MqY-uT-KeA.text">
+        <source>Twitter</source>
+        <note>Class = "UILabel"; text = "Twitter"; ObjectID = "MqY-uT-KeA";</note>
+      </trans-unit>
+      <trans-unit id="Uip-f1-UcD.text">
+        <source>Pages</source>
+        <note>Class = "UILabel"; text = "Pages"; ObjectID = "Uip-f1-UcD";</note>
+      </trans-unit>
+      <trans-unit id="VCE-Sd-pxI.headerTitle">
+        <source>FIND FRIENDS</source>
+        <note>Class = "UITableViewSection"; headerTitle = "FIND FRIENDS"; ObjectID = "VCE-Sd-pxI";</note>
+      </trans-unit>
+      <trans-unit id="X5v-bQ-ho4.normalTitle">
+        <source>Share Shoutit App</source>
+        <note>Class = "UIButton"; normalTitle = "Share Shoutit App"; ObjectID = "X5v-bQ-ho4";</note>
+      </trans-unit>
+      <trans-unit id="XFT-yx-Zs1.headerTitle">
+        <source>INVITE FRIENDS</source>
+        <note>Class = "UITableViewSection"; headerTitle = "INVITE FRIENDS"; ObjectID = "XFT-yx-Zs1";</note>
+      </trans-unit>
+      <trans-unit id="dFB-2V-zC5.headerTitle">
+        <source>SUGGESTIONS</source>
+        <note>Class = "UITableViewSection"; headerTitle = "SUGGESTIONS"; ObjectID = "dFB-2V-zC5";</note>
+      </trans-unit>
+      <trans-unit id="hm5-aG-cnI.text">
+        <source>Facebook</source>
+        <note>Class = "UILabel"; text = "Facebook"; ObjectID = "hm5-aG-cnI";</note>
+      </trans-unit>
+      <trans-unit id="iHP-TL-zdS.text">
+        <source>Users</source>
+        <note>Class = "UILabel"; text = "Users"; ObjectID = "iHP-TL-zdS";</note>
+      </trans-unit>
+      <trans-unit id="iRJ-7L-tXi.text">
+        <source>Facebook</source>
+        <note>Class = "UILabel"; text = "Facebook"; ObjectID = "iRJ-7L-tXi";</note>
+      </trans-unit>
+      <trans-unit id="jOt-GS-HLf.title">
+        <source>Suggestions</source>
+        <note>Class = "UITableViewController"; title = "Suggestions"; ObjectID = "jOt-GS-HLf";</note>
+      </trans-unit>
       <trans-unit id="peX-Yc-7Ud.title">
         <source>Title</source>
         <target>Title</target>
-        <note>Class = "UINavigationItem"; title = "Title"; ObjectID = "peX-Yc-7Ud";</note>
+      </trans-unit>
+      <trans-unit id="zdj-1O-cwZ.title">
+        <source>Invite Friends</source>
+        <note>Class = "UITableViewController"; title = "Invite Friends"; ObjectID = "zdj-1O-cwZ";</note>
       </trans-unit>
     </body>
   </file>
@@ -2512,11 +2677,6 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1.1" build-num="7B1005"/>
     </header>
     <body>
-      <trans-unit id="6Fl-rk-iIB.normalTitle">
-        <source>Call</source>
-        <target>Call</target>
-        <note>Class = "UIButton"; normalTitle = "Call"; ObjectID = "6Fl-rk-iIB";</note>
-      </trans-unit>
       <trans-unit id="6ax-sw-xDW.normalTitle">
         <source>Cancel</source>
         <target>Cancel</target>
@@ -2536,6 +2696,11 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <source>Incoming call from XX</source>
         <target>Incoming call from XX</target>
         <note>Class = "UILabel"; text = "Incoming call from XX"; ObjectID = "Otg-mn-IP0";</note>
+      </trans-unit>
+      <trans-unit id="WrL-1Z-BUo.text">
+        <source>Call</source>
+        <target>Call</target>
+        <note>Class = "UILabel"; text = "Call"; ObjectID = "WrL-1Z-BUo";</note>
       </trans-unit>
       <trans-unit id="Y8C-qw-JQt.text">
         <source>Answer</source>
@@ -2677,6 +2842,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <source>Chats</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Conversation">
+        <source>Conversation</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Current location:">
         <source>Current location:</source>
         <note>No comment provided by engineer.</note>
@@ -2720,6 +2889,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="Password">
         <source>Password</source>
         <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Public Chats">
+        <source>Public Chats</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
@@ -2789,6 +2962,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
         <source>Chats</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Conversation">
+        <source>Conversation</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Current location:">
         <source>Current location:</source>
         <note>No comment provided by engineer.</note>
@@ -2832,6 +3009,10 @@ Hat, Chunky Textured Knit Hat and more text</target>
       <trans-unit id="Password">
         <source>Password</source>
         <note>Settings cell title</note>
+      </trans-unit>
+      <trans-unit id="Public Chats">
+        <source>Public Chats</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
