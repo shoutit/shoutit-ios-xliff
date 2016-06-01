@@ -153,7 +153,15 @@
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <note>No comment provided by engineer.</note>
+        <note>Edit photo action sheet option</note>
+      </trans-unit>
+      <trans-unit id="Cannot add more images">
+        <source>Cannot add more images</source>
+        <note>Alert title - user tries to pick more than allowed number of images in media picker</note>
+      </trans-unit>
+      <trans-unit id="Cannot add more videos">
+        <source>Cannot add more videos</source>
+        <note>Alert title - user tries to pick more than allowed number of videos in media picker</note>
       </trans-unit>
       <trans-unit id="Categorie">
         <source>Categorie</source>
@@ -174,6 +182,10 @@
       <trans-unit id="Category">
         <source>Category</source>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Change">
+        <source>Change</source>
+        <note>Edit photo action sheet option</note>
       </trans-unit>
       <trans-unit id="Change email">
         <source>Change email</source>
@@ -310,7 +322,8 @@ Created on %2$@</source>
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <note>Shout detail tab bar item</note>
+        <note>Edit photo action sheet option
+   Shout detail tab bar item</note>
       </trans-unit>
       <trans-unit id="Delete Conversation">
         <source>Delete Conversation</source>
@@ -388,6 +401,10 @@ Created on %2$@</source>
       <trans-unit id="Edit Request">
         <source>Edit Request</source>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Edit Shout Media">
+        <source>Edit Shout Media</source>
+        <note>Edit media alert title</note>
       </trans-unit>
       <trans-unit id="Email">
         <source>Email</source>
@@ -658,7 +675,7 @@ Created on %2$@</source>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
-        <note>No comment provided by engineer.</note>
+        <note>Alert button</note>
       </trans-unit>
       <trans-unit id="Offer">
         <source>Offer</source>
@@ -1022,6 +1039,14 @@ Created on %2$@</source>
       <trans-unit id="You can only start a chat with your listeners">
         <source>You can only start a chat with your listeners</source>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You can select only 1 video">
+        <source>You can select only 1 video</source>
+        <note>Alert message - user tries to pick more than allowed number of videos in media picker</note>
+      </trans-unit>
+      <trans-unit id="You can select only 5 images">
+        <source>You can select only 5 images</source>
+        <note>Alert message - user tries to pick more than allowed number of images in media picker</note>
       </trans-unit>
       <trans-unit id="You can start new conversation in shout details or user profile.">
         <source>You can start new conversation in shout details or user profile.</source>
